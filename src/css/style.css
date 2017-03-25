@@ -2,13 +2,22 @@
 
 body {
   font-family: Roboto;
-  font-size: 3rem;
   margin: 2rem;
 }
 
 h1 {
-  color: red;
+  font-size: 4rem;
   font-family: 'bebas_neuebold';
+}
+
+.section-title::before {
+  content: '';
+  display: inline-block;
+  background: url(../assets/img/mustache.png);
+  background-repeat: no-repeat;
+  width: 9.5rem;
+  height: 2.8rem;
+  margin-right: 1rem;
 }
 
 p {
