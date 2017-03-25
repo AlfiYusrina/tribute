@@ -24,11 +24,19 @@ const App = () => {
       <header >
         <h1 className='section-title'>Spoiled Cats</h1>
       </header>
+      <p className='section-text'>Freddie Mercury just wanted the cats to be happy and have a loving home. It made him feel really good that he could do something like that.
+        He spoiled the cats very much. They didn’t get normal cat food much. Mostly, he prepared some fresh meat for them, like chicken. He also gave them a lot of toys and treats. When it was Christmas, he got them their own Christmas stockings filled with treats and toys and when it was their birthday, they celebrated.
+        When he was on tours, he often made phone calls to his cats. He wanted to hear them and make sure they were alright. Mary would than take the cat on her lap en hold the phone close to their face so they could hear hem well.
+        His fans knew how fond Mercury was of his cats, so they often sent stuff for his cats to his fan office. A lot of them also named their cat after Freddie, who was really flattered by those gestures.
+        It was really easy for everybody to see Freddies love for cats. On the inside of the album ‘Classic Queen’, you could see a portrait of Mercury wearing a vest with cats on it. If you look close, you can see that the cats on the vest are actually his own.
+      </p>
     </section>
     <section className='what-now'>
       <header>
         <h1 className='section-title'>What Now</h1>
       </header>
+      <p className='section-text'>Freddie Mercury knew he was going to die, but before that happened, he made sure that all of his beloved cats would be taken care of. All of them stayed at Garden Lodge and Mary took care of them.  Today, they still live there and Delilah is often spotted on the top of the wall. So it’s clear that she is still the ruler of the house and that’s exactly what Freddie would have wanted.
+      </p>
     </section>
     <section className='foods'>
       <header>
