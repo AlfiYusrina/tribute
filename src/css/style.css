@@ -59,3 +59,101 @@ p {
     font-weight: bold;
   }
 }
+
+.what-now {
+  background-image: url(../assets/img/incloud.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 80.8rem 60.9rem;
+
+  &-insider {
+    width: 96rem;
+    margin: 0 auto;
+  }
+
+  &-highlight {
+    color: var(--yellow);
+    font-weight: bold;
+  }
+
+  &-img {
+    width: 45.2rem;
+  }
+}
+
+.foods {
+  background-color: var(--grey);
+  background-image: url(../assets/img/spoonandsugars.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 14.6rem;
+
+  &-insider {
+    width: 96rem;
+    margin: 0 auto;
+  }
+
+  &-highlight {
+    color: var(--yellow);
+    font-weight: bold;
+  }
+
+  &-img {
+    width: 28.8rem;
+  }
+}
+
+.wine {
+
+  &-insider {
+    width: 96rem;
+    margin: 0 auto;
+  }
+
+  &-highlight {
+    color: var(--yellow);
+    font-weight: bold;
+  }
+
+  &-img {
+    width: 28.3rem;
+  }
+
+}
+
+.drinks {
+
+  &-text {
+    font-family: trashhandregular;
+    font-size: 3rem;
+  }
+
+}
+
+.hot-spicy {
+
+  &-highlight {
+    color: var(--yellow);
+    font-weight: bold;
+  }
+
+  &-quoteText {
+    font-family: 'bebas_neuebold';
+    font-size: 2rem;
+  }
+}
+
+.xmas-dining {
+  background-color: var(--yellow);
+
+  &-insider {
+    width: 96rem;
+    margin: 0 auto;
+  }
+
+  &-highlight {
+    color: var(--grey);
+    font-weight: bold;
+  }
+
+}
