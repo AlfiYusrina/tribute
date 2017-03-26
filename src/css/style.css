@@ -13,15 +13,26 @@ h1 {
   font-family: 'bebas_neuebold';
 }
 
+p {
+  font-family: allerregular;
+}
+
+.flex {
+  display: flex;
+}
+
 .section {
 
   &-title {
     font-size: 4rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   &-text {
     font-family: allerregular;
     font-size: 1.8rem;
+    line-height: 2.5rem;
   }
 
   &-title::before {
@@ -35,10 +46,16 @@ h1 {
   }
 }
 
-p {
-  font-family: allerregular;
-}
-
 .spoiled-cats {
   background-color: var(--yellow);
+
+  &-insider {
+    width: 96rem;
+    margin: 0 auto;
+  }
+
+  &-highlight {
+    color: var(--grey);
+    font-weight: bold;
+  }
 }
