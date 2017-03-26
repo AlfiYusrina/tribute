@@ -1,8 +1,12 @@
 @import 'reset';
 
+:root {
+  --yellow: #dfc251;
+  --grey: #ebebeb;
+}
+
 body {
   font-family: Roboto;
-  margin: 2rem;
 }
 
 h1 {
@@ -13,6 +17,11 @@ h1 {
 
   &-title {
     font-size: 4rem;
+  }
+
+  &-text {
+    font-family: allerregular;
+    font-size: 1.8rem;
   }
 
   &-title::before {
@@ -28,4 +37,8 @@ h1 {
 
 p {
   font-family: allerregular;
+}
+
+.spoiled-cats {
+  background-color: var(--yellow);
 }
