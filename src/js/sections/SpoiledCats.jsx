@@ -1,5 +1,11 @@
 import React from 'react';
 
+const handleClickAudio = () =>  {
+
+  const audio = new Audio(`assets/audio/callDelilah.mp3`);
+  audio.play();
+};
+
 const SpoiledCats = () => {
   return (
     <section className='spoiled-cats'>
@@ -16,8 +22,7 @@ const SpoiledCats = () => {
           <br />
           It was really easy for everybody to see Freddies love for cats. On the inside of the album ‘Classic Queen’, you could see a portrait of Mercury <span className='spoiled-cats-highlight'>wearing a vest</span> with cats on it. If you look close, you can see that the cats on the vest are actually his own.
           </p>
-          <audio className='spoiled-cats-audio' src='assets/audio/callDelilah.mp3' type='audio/mp3' controls>Call Delilah</audio>
-          <img src='assets/img/callDel.png' alt='Call Delilah' title='Press to call Delilah' />
+          <img src='assets/img/callDel.png' alt='Call Delilah' title='Press to call Delilah' onClick={handleClickAudio} />
         </div>
       </div>
     </section>
