@@ -41,12 +41,12 @@ p {
 }
 
 .header {
-  background-color: #ebebeb;
+  background-color: var(--grey);
   height: 95rem;
 }
 
 .yellow {
-  color: #d9b733;
+  color: var(--yellow);
 }
 
 .first_freddie {
@@ -156,7 +156,10 @@ p {
 
   &-insider {
     width: 96rem;
-    margin: 0 auto;
+  }
+
+  &-insider header {
+    padding-top: 70px;
   }
 
   &-highlight {
@@ -164,9 +167,11 @@ p {
     font-weight: bold;
   }
 
-  &-img {
-    width: 45.2rem;
+  &-cloud {
+    position: absolute;
+    margin-top: -41rem;
   }
+
 }
 
 .foods {
