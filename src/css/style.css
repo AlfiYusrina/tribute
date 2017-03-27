@@ -158,7 +158,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 4rem;
   }
 
   &-highlight {
@@ -172,11 +172,11 @@ p {
   }
 
   & .section-text {
-    width: 579px;
+    width: 57.9rem;
   }
 
   &-img {
-    margin-top: -90px;
+    margin-top: -9rem;
   }
 
 }
@@ -184,21 +184,37 @@ p {
 .foods {
   background-image: url(../assets/img/background_light_eater.png);
   background-repeat: no-repeat;
-  background-size: 100vw 40rem;
-  height: 900px;
+  background-size: 100vw 45rem;
+  height: 50rem;
 
-  & img {
+  &-img {
     width: 37rem;
     height: 25rem;
   }
 
-}
-
-/*.foods {
-
   &-insider {
-    width: 96rem;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 7.5rem;
+    margin-right: 14.5rem;
+  }
+
+  &-text {
+    max-width: 67rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+  }
+
+  &-img2 {
+    margin-top: 3.2rem;
+    position: absolute;
+    margin-left: 61.2rem;
+  }
+
+  & header {
+    margin-left: 41rem;
+    margin-bottom: 2.5rem;
   }
 
   &-highlight {
@@ -209,6 +225,35 @@ p {
 }
 
 .wine {
+
+  &-insider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-highlight {
+    color: var(--yellow);
+    font-weight: bold;
+  }
+
+  &-texts {
+    max-width: 57rem;
+    margin-right: 3rem;
+    margin-top: -21.5rem;
+  }
+
+  &-images {
+    margin-left: 3rem;
+  }
+
+  & header {
+    margin-bottom: 2.5rem;
+  }
+
+}
+
+/*.wine {
 
   &-insider {
     width: 96rem;
