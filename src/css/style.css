@@ -163,7 +163,6 @@ p {
 
   &-highlight {
     color: var(--yellow);
-    font-weight: bold;
   }
 
   &-cloud {
@@ -218,7 +217,6 @@ p {
 
   &-highlight {
     color: var(--yellow);
-    font-weight: bold;
   }
 
 }
@@ -234,7 +232,6 @@ p {
 
   &-highlight {
     color: var(--yellow);
-    font-weight: bold;
   }
 
   &-texts {
@@ -264,38 +261,28 @@ p {
   }
 
   &-img {
-    margin-top: -295px;
+    margin-top: -29.5rem;
   }
 
   &-newspaper {
-    margin-top: -273px;
+    margin-top: -27.3rem;
   }
 
 }
 
-/*.wine {
+.fav-restos {
+  background: url(../assets/img/background_restaurants.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 60rem;
+  height: 65rem;
+  margin-top: -13.2rem;
 
-  &-insider {
-    width: 96rem;
-    margin: 0 auto;
+  & header {
+    padding-top: 10rem;
   }
 
-  &-highlight {
-    color: var(--yellow);
-    font-weight: bold;
-  }
-
-  &-img {
-    width: 28.3rem;
-  }
-
-}
-
-.drinks {
-
-  &-text {
-    font-family: trashhandregular;
-    font-size: 3rem;
+  & .section-text {
+    max-width: 60rem;
   }
 
 }
@@ -304,7 +291,6 @@ p {
 
   &-highlight {
     color: var(--yellow);
-    font-weight: bold;
   }
 
   &-quoteText {
@@ -313,7 +299,7 @@ p {
   }
 }
 
-.xmas-dining {
+/*.xmas-dining {
   background-color: var(--yellow);
 
   &-insider {
