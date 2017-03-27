@@ -1,12 +1,18 @@
 @import 'reset';
 
+/*ALGEMEEN*/
+
 :root {
-  --yellow: #dfc251;
+  --yellow: #d9b733;
   --grey: #ebebeb;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
-  font-family: Roboto;
+  font-family: Arial;
 }
 
 h1 {
@@ -14,10 +20,109 @@ h1 {
 }
 
 p {
-  font-family: allerregular;
+  font-family: arial;
+  font-size: 1.8rem;
 }
 
-.flex {
+/*HEADER*/
+
+.big_newspaper {
+  float: right;
+}
+
+.title {
+  font-size: 12rem;
+  font-family: 'bebas neue';
+  text-align: center;
+  max-width: 400px;
+  margin-top: -600px;
+  margin-left: 230px;
+}
+
+.header {
+  background-color: #ebebeb;
+  height: 900px;
+}
+
+.yellow {
+  color: #d9b733;
+}
+
+.first_freddie {
+  margin-top: 25px;
+}
+
+.spotlight {
+  position: absolute;
+  margin-left: -100px;
+}
+
+.nostalgie_container {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 550px;
+  width: 300px;
+  margin-top: -58px;
+}
+
+.presented {
+  color: #d9b733;
+  font-family: 'bebas neue';
+  font-size: 2.6rem;
+  margin-right: 7px;
+}
+
+.intro {
+  border-top: 4px solid white;
+  margin-left: 220px;
+  position: absolute;
+  width: 730px;
+  margin-top: 40px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+/*MAIN*/
+
+.cats {
+  height: 900px;
+
+  & .section-title {
+    margin-left: 220px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
+
+  & p {
+    position: absolute;
+    width: 780px;
+    margin-left: 220px;
+  }
+
+  & .cats-photos {
+    margin-top: 100px;
+    margin-left: 55px;
+  }
+
+}
+
+.section-title {
+  font-size: 4rem;
+}
+
+.section-title::before {
+
+  content: '';
+  display: inline-block;
+  background: url(../assets/img/mustache.png);
+  background-repeat: no-repeat;
+  width: 9.5rem;
+  height: 2.8rem;
+  margin-right: 1rem;
+
+}
+
+/*.flex {
   display: flex;
 }
 
@@ -30,7 +135,6 @@ p {
   }
 
   &-text {
-    font-family: allerregular;
     font-size: 1.8rem;
     line-height: 2.5rem;
   }
@@ -156,4 +260,4 @@ p {
     font-weight: bold;
   }
 
-}
+}*/
