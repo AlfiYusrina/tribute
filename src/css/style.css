@@ -152,6 +152,23 @@ p {
 
 }
 
+.what-now {
+
+  &-insider {
+    width: 96rem;
+    margin: 0 auto;
+  }
+
+  &-highlight {
+    color: var(--yellow);
+    font-weight: bold;
+  }
+
+  &-img {
+    width: 45.2rem;
+  }
+}
+
 .foods {
 
   & img {
