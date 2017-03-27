@@ -6,6 +6,7 @@ import App from './containers/App';
 import CatSound from './containers/CatSound';
 import JapanSong from './containers/JapanSong';
 import Drinks from './containers/Drinks';
+import Restos from './containers/Restos';
 const init = () => {
 
   render(
@@ -23,6 +24,10 @@ const init = () => {
   render(
     <Drinks />,
     document.querySelector(`.drinks`)
+  );
+  render(
+    <Restos />,
+    document.querySelector(`.restos`)
   );
 };
 
