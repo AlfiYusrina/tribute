@@ -22,6 +22,7 @@ h1 {
 p {
   font-family: arial;
   font-size: 1.8rem;
+  line-height: 2.5rem;
 }
 
 /*HEADER*/
@@ -34,14 +35,14 @@ p {
   font-size: 12rem;
   font-family: 'bebas neue';
   text-align: center;
-  max-width: 400px;
-  margin-top: -600px;
-  margin-left: 230px;
+  max-width: 40rem;
+  margin-top: -60rem;
+  margin-left: 23rem;
 }
 
 .header {
   background-color: #ebebeb;
-  height: 900px;
+  height: 95rem;
 }
 
 .yellow {
@@ -49,59 +50,59 @@ p {
 }
 
 .first_freddie {
-  margin-top: 25px;
+  margin-top: 2.5rem;
 }
 
 .spotlight {
   position: absolute;
-  margin-left: -100px;
+  margin-left: -10rem;
 }
 
 .nostalgie_container {
   display: flex;
   align-items: flex-end;
-  margin-left: 550px;
-  width: 300px;
-  margin-top: -58px;
+  margin-left: 55rem;
+  width: 30rem;
+  margin-top: -5.8rem;
 }
 
 .presented {
   color: #d9b733;
   font-family: 'bebas neue';
   font-size: 2.6rem;
-  margin-right: 7px;
+  margin-right: .7rem;
 }
 
 .intro {
-  border-top: 4px solid white;
-  margin-left: 220px;
+  border-top: .4rem solid white;
+  margin-left: 22rem;
   position: absolute;
-  width: 730px;
-  margin-top: 40px;
-  padding-top: 25px;
-  padding-bottom: 30px;
+  width: 73rem;
+  margin-top: 4rem;
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
 }
 
 /*MAIN*/
 
 .cats {
-  height: 900px;
+  height: 100rem;
 
   & .section-title {
-    margin-left: 220px;
-    margin-top: 35px;
-    margin-bottom: 25px;
+    margin-left: 22rem;
+    margin-top: 3.5rem;
+    margin-bottom: 2.5rem;
   }
 
   & p {
     position: absolute;
-    width: 780px;
-    margin-left: 220px;
+    width: 78rem;
+    margin-left: 22rem;
   }
 
   & .cats-photos {
-    margin-top: 100px;
-    margin-left: 55px;
+    margin-top: 11.5rem;
+    margin-left: 5.5rem;
   }
 
 }
@@ -122,49 +123,45 @@ p {
 
 }
 
-/*.flex {
-  display: flex;
-}
+.spoiled-cats {
+  height: 80rem;
+  background: url(../assets/img/background_spoiled_cats.jpg);
+  background-repeat: no-repeat;
 
-.section {
-
-  &-title {
-    font-size: 4rem;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+  & .section-title {
+    margin-left: 18rem;
+    margin-top: 3.5rem;
+    margin-bottom: 2.5rem;
+    padding-top: 3.5rem;
   }
 
   &-text {
-    font-size: 1.8rem;
-    line-height: 2.5rem;
+    position: absolute;
+    width: 64rem;
+    margin-left: 18rem;
   }
 
-  &-title::before {
-    content: '';
-    display: inline-block;
-    background: url(../assets/img/mustache.png);
-    background-repeat: no-repeat;
-    width: 9.5rem;
-    height: 2.8rem;
-    margin-right: 1rem;
-  }
-}
-
-.spoiled-cats {
-  background-color: var(--yellow);
-
-  &-insider {
-    width: 96rem;
-    margin: 0 auto;
+  & img {
+    margin-left: 70rem;
+    margin-top: 2.8rem;
   }
 
   &-highlight {
-    color: var(--grey);
-    font-weight: bold;
+    color: white;
   }
+
 }
 
-.what-now {
+.foods {
+
+  & img {
+    width: 26.7rem;
+    height: 19.4rem;
+  }
+
+}
+
+/*.what-now {
   background-image: url(../assets/img/incloud.png);
   background-repeat: no-repeat;
   background-position: left;
