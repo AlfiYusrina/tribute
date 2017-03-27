@@ -5,7 +5,7 @@ import {render} from 'react-dom';
 import App from './containers/App';
 import CatSound from './containers/CatSound';
 import JapanSong from './containers/JapanSong';
-
+import Drinks from './containers/Drinks';
 const init = () => {
 
   render(
@@ -19,6 +19,10 @@ const init = () => {
   render(
     <JapanSong />,
     document.querySelector(`.japanSong`)
+  );
+  render(
+    <Drinks />,
+    document.querySelector(`.drinks`)
   );
 };
 
