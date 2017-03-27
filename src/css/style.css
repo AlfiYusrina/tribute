@@ -155,11 +155,9 @@ p {
 .what-now {
 
   &-insider {
-    width: 96rem;
-  }
-
-  &-insider header {
-    padding-top: 70px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
   }
 
   &-highlight {
@@ -170,6 +168,10 @@ p {
   &-cloud {
     position: absolute;
     margin-top: -41rem;
+  }
+
+  & .section-text {
+    width: 579px;
   }
 
 }
