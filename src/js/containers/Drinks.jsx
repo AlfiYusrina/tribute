@@ -24,9 +24,11 @@ class Drinks extends Component {
     return (
       <div className='drinks'>
         <img  className='wine-img' src={`assets/img/drink${number}.png`} alt='favourite drinks' title='favourite drinks' />
-        <button onClick={this.handleClickDecrement}> - </button>
-        <p className='drinks-text'>Change Drink</p>
+        <div className='drinks-insider'>
+          <button onClick={this.handleClickDecrement}> - </button>
+          <p className='drinks-text'>Change Drink</p>
           <button onClick={this.handleClickIncrement}> + </button>
+        </div>
       </div>
     );
   }
