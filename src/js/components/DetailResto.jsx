@@ -1,24 +1,24 @@
-import React, {Component} from 'react';
+import React, {PropTypes} from 'react';
 
-class DetailResto extends Component {
+const DetailResto = ({
+  title,
+  text,
+  link
+}) => {
 
-  constructor(props, context) {
-    super(props, context);
-    this.state = {};
-  }
-
-  render() {
-    return (
+  return (
       <div className='fav-resto-detail'>
       <header className='fav-restos-card'>
-        <h1 className='fav-restos-card-name'>Richoux</h1>
+        <h1 className='fav-restos-card-name'><a className='fav-restos-card-link' href={link}>{title}</a></h1>
       </header>
-      <p className='section-text fav-restos-card-text'>Freddie’s regular treat at Richoux was their Welsh Rarebit. Freddie did like his cheese on toast done with a touch of luxury.</p>
-
+      <p className='section-text fav-restos-card-text'>{text}</p>
       </div>
-    );
-  }
+  );
 
-}
-
+};
+DetailResto.propTypes = {
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired
+};
 export default DetailResto;

@@ -1,15 +1,13 @@
-import React, {Component} from 'react';
+import React, {PropTypes} from 'react';
 
-class PizzaIcon extends Component {
+const PizzaIcon = ({active, onClick}) => {
+  let className = ``;
+  if (active) {
 
-  constructor(props, context) {
-    super(props, context);
-    this.state = {};
+    className = `active`;
   }
-
-  render() {
-    return (
-      <g id='pizza' className='map-resto-icon'>
+  return (
+      <g id='pizza' onClick={onClick} className={`map-resto-icon ${  className}`}>
       <path d='M189.7,296.5c-9.4,5-22.8,25.6-23.4,44.7c-0.1,4.1,2,7.9,6.2,7.8l53.3,3.8c4.8-0.1,7.8-5.4,5.2-9.5
         c-7.2-11.8-25.9-35.7-32-45.4C197.1,294.6,193.1,294.7,189.7,296.5z M222.1,345.3c0,0.8-0.6,1.5-1.5,1.6c-0.8,0-1.5-0.6-1.6-1.5
         c0-0.8,0.6-1.5,1.5-1.6C221.4,343.8,222.1,344.5,222.1,345.3z M209.4,342.5c0,1.7-1.3,3.2-3.1,3.2c-1.7,0-3.2-1.3-3.2-3.1
@@ -21,9 +19,10 @@ class PizzaIcon extends Component {
         c-1.9,0.2-5.8,3.1-10.8,10.7c-6.7,10.1-11.6,22.5-10.4,26.6c0.3,1-0.3,2.1-1.3,2.4c-1,0.3-2.1-0.3-2.4-1.3
         c-1.9-6.4,5.2-21.3,10.9-29.8c3.6-5.4,8.8-11.8,13.6-12.4C197.3,301.2,198.2,302,198.4,303z' />
       </g>
-    );
-  }
-
-}
-
+  );
+};
+PizzaIcon.propTypes = {
+  active: PropTypes.bool.isRequired,
+  onClick: PropTypes.func.isRequired
+};
 export default PizzaIcon;

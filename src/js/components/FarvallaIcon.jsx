@@ -1,15 +1,12 @@
-import React, {Component} from 'react';
+import React, {PropTypes} from 'react';
 
-class FarvallaIcon extends Component {
-
-  constructor(props, context) {
-    super(props, context);
-    this.state = {};
+const FarvallaIcon = ({active, onClick}) => {
+  let className = ``;
+  if (active) {
+    className = `active`;
   }
-
-  render() {
-    return (
-       <g id='farvala' className='map-resto-icon'><g><path className='st0' d='M134.2,107.2c-0.5-2.3-3,0.4-3.6-2.7c-0.7-3.1,3.3-2.4,2.3-4.1c-0.9-1.7-4-0.3-4.5-1.6
+  return (
+       <g id='farvala' onClick={onClick} className={`map-resto-icon ${  className}`}><g><path className='st0' d='M134.2,107.2c-0.5-2.3-3,0.4-3.6-2.7c-0.7-3.1,3.3-2.4,2.3-4.1c-0.9-1.7-4-0.3-4.5-1.6
           c-0.5-1.2,3-3.2,1.9-4.9c-1.2-1.7-3.8,0.9-4.9-0.3c-1.1-1.1,2.3-4.1,1.1-5.2c-1.1-1.1-4.4,1.1-5.2,0.4c-0.8-0.7,2.5-4.6,0.4-5.8
           c-2.1-1.2-4.8,1.4-7.1,3.5c-2.3,2-6.3,6.9-9.1,12.2c-2.8,5.3-5.5,6.8-6.5,6.9c-1.1,0.1-3.9-0.1-6.1-2.9
           C86.5,95,74.9,91.1,72.8,91.2c0,0-1.5-0.1-2.5,2.6c-0.9,2.7,3.4,3.2,3.3,4.8c-0.1,1.6-5.4-0.7-5.8,1c-0.3,1.8,2.6,3.2,2.1,5.5
@@ -21,9 +18,10 @@ class FarvallaIcon extends Component {
           c0.5-3.1,8.2,0.7,12,3.8C87.4,107.9,82.4,109.5,82.9,106.4z M114.4,101.5c1.5,2.7-3.7,3-9.9,7.7C107,105,112.8,98.8,114.4,101.5z
           M119.4,115.6c-0.7,3.6-11.8-0.5-13.8-4.1C112.6,110.3,120.1,112,119.4,115.6z' /></g>
         </g>
-    );
-  }
-
-}
-
+  );
+};
+FarvallaIcon.propTypes = {
+  active: PropTypes.bool.isRequired,
+  onClick: PropTypes.func.isRequired
+};
 export default FarvallaIcon;

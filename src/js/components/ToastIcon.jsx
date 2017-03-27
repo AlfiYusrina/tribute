@@ -1,15 +1,13 @@
-import React, {Component} from 'react';
+import React, {PropTypes} from 'react';
 
-class ToastIcon extends Component {
+const ToastIcon = ({active, onClick}) => {
+  let className = ``;
+  if (active) {
 
-  constructor(props, context) {
-    super(props, context);
-    this.state = {};
+    className = `active`;
   }
-
-  render() {
-    return (
-      <g id='toast' className='map-resto-icon'>
+  return (
+      <g id='toast' onClick={onClick} className={`map-resto-icon ${  className}`}>
         <path className='st1' d='M160.5,404.6c0,3.9-1.5,7.4-4,10v25.9c0,3.9-3.2,7.1-7.1,7.1h-29c-3.9,0-7.1-3.2-7.1-7.1v-20.9
         c-3.3-2.6-5.4-6.7-5.4-11.2c0-7.9,6.4-14.4,14.4-14.4c4.2,0,8.1,1.8,10.7,4.8c2.2-5.1,7.3-8.6,13.2-8.6
         C154.1,390.2,160.5,396.6,160.5,404.6z' />
@@ -20,9 +18,10 @@ class ToastIcon extends Component {
         M126.4,438.6c0,0.5-0.4,0.9-0.9,0.9s-0.9-0.4-0.9-0.9v-18.9c0-0.5,0.4-0.9,0.9-0.9s0.9,0.4,0.9,0.9V438.6z M126.4,411.9
         c0,0.5-0.4,0.9-0.9,0.9s-0.9-0.4-0.9-0.9v-9.7c0-0.5,0.4-0.9,0.9-0.9s0.9,0.4,0.9,0.9V411.9z' />
       </g>
-    );
-  }
-
-}
-
+  );
+};
+ToastIcon.propTypes = {
+  active: PropTypes.bool.isRequired,
+  onClick: PropTypes.func.isRequired
+};
 export default ToastIcon;
