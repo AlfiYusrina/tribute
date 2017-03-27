@@ -156,8 +156,9 @@ p {
 
   &-insider {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
+    padding-top: 40px;
   }
 
   &-highlight {
@@ -174,22 +175,26 @@ p {
     width: 579px;
   }
 
+  &-img {
+    margin-top: -90px;
+  }
+
 }
 
 .foods {
+  background-image: url(../assets/img/background_light_eater.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 40rem;
+  height: 900px;
 
   & img {
-    width: 26.7rem;
-    height: 19.4rem;
+    width: 37rem;
+    height: 25rem;
   }
 
 }
 
-/*.what-now {
-  background-image: url(../assets/img/incloud.png);
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 80.8rem 60.9rem;
+/*.foods {
 
   &-insider {
     width: 96rem;
@@ -201,31 +206,6 @@ p {
     font-weight: bold;
   }
 
-  &-img {
-    width: 45.2rem;
-  }
-}
-
-.foods {
-  background-color: var(--grey);
-  background-image: url(../assets/img/spoonandsugars.png);
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: 14.6rem;
-
-  &-insider {
-    width: 96rem;
-    margin: 0 auto;
-  }
-
-  &-highlight {
-    color: var(--yellow);
-    font-weight: bold;
-  }
-
-  &-img {
-    width: 28.8rem;
-  }
 }
 
 .wine {
