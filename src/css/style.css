@@ -391,9 +391,14 @@ p {
 }
 
 .hot-spicy {
+  margin-bottom: 5rem;
 
   &-highlight {
     color: var(--yellow);
+  }
+
+  &-quote {
+    margin-top: 6rem;
   }
 
   &-quoteText {
@@ -407,10 +412,17 @@ p {
     padding-left: 15rem;
   }
 
+  &-quote-img {
+    margin-top: -2.5rem;
+    position: absolute;
+    margin-left: -1rem;
+  }
+
   &-insider {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 4rem;
   }
 
   &-texts {
@@ -419,6 +431,11 @@ p {
 
   & header {
     margin-bottom: 2.5rem;
+  }
+
+  & .spicyimg {
+    margin-top: -42rem;
+    float: right;
   }
 
 }
