@@ -8,6 +8,7 @@ import JapanSong from './containers/JapanSong';
 import Drinks from './containers/Drinks';
 import Restos from './containers/Restos';
 import SpicyFood from './containers/SpicyFood';
+import XmasDining from './containers/XmasDining';
 const init = () => {
 
   render(
@@ -33,6 +34,10 @@ const init = () => {
   render(
     <SpicyFood />,
     document.querySelector(`.spicyimg`)
+  );
+  render(
+    <XmasDining />,
+    document.querySelector(`.xmas-dining-article-wrapper`)
   );
 };
 
