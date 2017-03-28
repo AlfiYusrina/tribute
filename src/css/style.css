@@ -526,21 +526,42 @@ p {
 
   &-text {
     max-width: 48rem;
+    padding-bottom: 3rem;
   }
 
   &-quote {
     font-family: 'bebas_neuebold';
     font-size: 2rem;
-    max-width: 35rem;
+    max-width: 46rem;
+    border-bottom: 3px solid var(--yellow);
+    border-top: 3px solid var(--yellow);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 11rem;
   }
 
   & header {
     margin-bottom: 5rem;
     padding-top: 3.5rem;
+    margin-left: 9.9rem;
   }
 
   &-insider {
     margin-right: 4rem;
+  }
+
+  & .japanSong {
+    margin-top: -17rem;
+    margin-left: -14rem;
+  }
+
+  &-texts {
+    margin-top: 3.6rem;
+  }
+
+  &-icon {
+    margin-top: -5.7rem;
+    margin-left: 37rem;
   }
 
 }
