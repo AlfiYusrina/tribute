@@ -519,3 +519,28 @@ p {
   }
 
 }
+
+.japan {
+  display: flex;
+  justify-content: center;
+
+  &-text {
+    max-width: 48rem;
+  }
+
+  &-quote {
+    font-family: 'bebas_neuebold';
+    font-size: 2rem;
+    max-width: 35rem;
+  }
+
+  & header {
+    margin-bottom: 5rem;
+    padding-top: 3.5rem;
+  }
+
+  &-insider {
+    margin-right: 4rem;
+  }
+
+}
