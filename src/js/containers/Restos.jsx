@@ -10,27 +10,32 @@ const data =  {
   farvala: {
     title: `La Meridiana`,
     text: `Freddie has been here, why don’t you try Pappardelle ai Funghii di Bosco?`,
-    link: `http://www.lameridianarestaurant.co.uk/`
+    link: `http://www.lameridianarestaurant.co.uk/`,
+    img: `assets/img/big_farvala.png`
   },
   fish: {
     title: `La Famiglia`,
     text: `Freddie like dishes with onions. Why don’t you try Pesce Spada all’Agrodolce, it is swordfish topped with onions, courgettes, and a balsamic vinegar. `,
-    link: `http://www.lafamiglia.co.uk/`
+    link: `http://www.lafamiglia.co.uk/`,
+    img: `assets/img/big_fish.png`
   },
   pizza: {
     title: `Orso`,
     text: `Who doesn’t like pizza? Try Pizza Diavolo, when you visit here.  `,
-    link: `http://www.orsorestaurant.co.uk/`
+    link: `http://www.orsorestaurant.co.uk/`,
+    img: `assets/img/big_pizza.png`
   },
   toast: {
     title: `Richoux`,
     text: `Freddie’s regular treat at Richoux was their Welsh Rarebit. Freddie did like his cheese on toast done with a touch of luxury.`,
-    link: `http://richoux.co.uk/`
+    link: `http://richoux.co.uk/`,
+    img: `assets/img/big_toast.png`
   },
   chicken: {
     title: `La Caprice `,
     text: `Did you know Freddie liked scrambled eggs? Try Argll Smoked Salmon with scambled eggs here.`,
-    link: `https://www.le-caprice.co.uk/`
+    link: `https://www.le-caprice.co.uk/`,
+    img: `assets/img/big_chicken.png`
   }
 };
 console.log(data);
@@ -56,7 +61,7 @@ class Restos extends Component {
           <ChickenIcon active={value === `chicken`} onClick={this.handleIconClick} />
         </svg>
 
-        <DetailResto title={item.title} link={item.link} text={item.text} />
+        <DetailResto title={item.title} link={item.link} text={item.text} img={item.img} />
       </article>
     );
   }
