@@ -178,6 +178,10 @@ p {
     margin-top: -9rem;
   }
 
+  & header {
+    margin-bottom: 2.5rem;
+  }
+
 }
 
 .foods {
@@ -273,16 +277,61 @@ p {
 .fav-restos {
   background: url(../assets/img/background_restaurants.png);
   background-repeat: no-repeat;
-  background-size: 100vw 60rem;
-  height: 65rem;
+  background-size: 100vw 68rem;
+  height: 68rem;
   margin-top: -13.2rem;
+  display: flex;
+  justify-content: center;
 
   & header {
-    padding-top: 10rem;
+    padding-top: 11.8rem;
+    margin-left: -11.6rem;
+  }
+
+  & .section-title {
+    margin-bottom: 2.5rem;
   }
 
   & .section-text {
     max-width: 60rem;
+  }
+
+  &-map {
+    padding-right: 12.3rem;
+    padding-top: 7.4rem;
+    height: 65rem;
+  }
+
+  & .restos {
+    position: absolute;
+    margin-top: 7.8rem;
+    margin-left: -21.2rem;
+  }
+
+  &-card {
+    position: absolute;
+    margin-left: 45rem;
+    margin-top: -16.3rem;
+  }
+
+  &-card-text {
+    margin-top: -24.1rem;
+    padding-left: 45.1rem;
+  }
+
+  &-icons {
+    margin-left: 5rem;
+  }
+
+  &-card-name {
+    font-family: bebasneue;
+    font-size: 3.6rem;
+    margin-left: 56.8rem;
+  }
+
+  &-card-link {
+    color: black;
+    text-decoration: none;
   }
 
 }
