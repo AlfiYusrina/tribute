@@ -440,17 +440,15 @@ p {
 
 }
 
-/*.xmas-dining {
+.xmas-dining {
   background-color: var(--yellow);
 
   &-insider {
     width: 96rem;
-    margin: 0 auto;
   }
 
   &-highlight {
     color: var(--grey);
-    font-weight: bold;
   }
 
-}*/
+}
