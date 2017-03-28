@@ -131,6 +131,10 @@ p {
   height: 80rem;
   background: url(../assets/img/background_spoiled_cats.jpg);
   background-repeat: no-repeat;
+  background-size: 100vw 62.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   & .section-title {
     margin-left: 18rem;
@@ -152,6 +156,11 @@ p {
 
   &-highlight {
     color: white;
+  }
+
+  &-insider {
+    margin-left: -18rem;
+    margin-top: -3.6rem;
   }
 
 }
@@ -447,8 +456,8 @@ p {
 
   &-insider {
     width: 96rem;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
   }
 
   &-highlight {
@@ -457,9 +466,14 @@ p {
 
   & header {
     max-width: 72rem;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-end;*/
+  }
+
+  & article {
+    /*display: flex;
+    flex-direction: column;*/
   }
 
 }
