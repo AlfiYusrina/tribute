@@ -228,7 +228,7 @@ p {
   }
 
   & header {
-    margin-left: 41rem;
+    margin-left: 33rem;
     margin-bottom: 2.5rem;
   }
 
@@ -471,9 +471,25 @@ p {
     align-items: flex-end;*/
   }
 
-  & article {
-    /*display: flex;
-    flex-direction: column;*/
+  & header .section-title {
+    margin-bottom: 2.5rem;
+    padding-top: 3.5rem;
+  }
+
+  &-article {
+    display: flex;
+    /*flex-direction: column;*/
+  }
+
+  &-detail-texts {
+    max-width: 58rem;
+    border: .5rem solid black;
+    padding: 1rem 8rem 2rem 1.5rem;
+  }
+
+  &-detail-header {
+    font-size: 3rem;
+    margin-bottom: 1rem;
   }
 
 }
