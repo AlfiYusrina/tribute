@@ -25,9 +25,9 @@ class Drinks extends Component {
       <div className='drinks'>
         <img  className='wine-img' src={`assets/img/drink${number}.png`} alt='favourite drinks' title='favourite drinks' />
         <div className='drinks-insider'>
-          <button onClick={this.handleClickDecrement}> - </button>
-          <p className='drinks-text'>Change Drink</p>
-          <button onClick={this.handleClickIncrement}> + </button>
+          <button className='wine-button-left' onClick={this.handleClickDecrement}><span className='hidden'> - </span> </button>
+          <p className='drinks-text'><span className='hidden'>Change Drink</span></p>
+          <button className='wine-button-right' onClick={this.handleClickIncrement}> <span className='hidden'> + </span></button>
         </div>
       </div>
     );
