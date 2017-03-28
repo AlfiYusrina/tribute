@@ -25,6 +25,10 @@ p {
   line-height: 2.5rem;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 /*HEADER*/
 
 .big_newspaper {
@@ -260,8 +264,16 @@ p {
     margin-left: -4.7rem;
   }
 
+  & .drinks-text {
+    background: url(../assets/img/ChangeDrink.png);
+    background-repeat: no-repeat;
+    width: 13rem;
+  }
+
   & .drinks-insider {
     display: flex;
+    margin-top: 1rem;
+    margin-left: -13rem;
   }
 
   &-img {
@@ -272,6 +284,25 @@ p {
     margin-top: -27.3rem;
   }
 
+  &-button-left {
+    background: url(../assets/img/drinkLeft.png);
+    background-repeat: no-repeat;
+  }
+
+  &-button-right {
+    background: url(../assets/img/drinkRight.png);
+    background-repeat: no-repeat;
+  }
+
+  & button {
+    border: none;
+    padding: 1rem;
+  }
+
+  & button:focus {
+    outline: none;
+  }
+
 }
 
 .fav-restos {
@@ -280,8 +311,6 @@ p {
   background-size: 100vw 68rem;
   height: 68rem;
   margin-top: -13.2rem;
-  /*display: flex;
-  justify-content: center;*/
 
   &-header {
     margin-left: 25rem;
@@ -306,20 +335,14 @@ p {
   }
 
   &-card {
-    /*position: absolute;
-    margin-left: 45rem;
-    margin-top: -16.3rem;*/
     margin-bottom: 1rem;
   }
 
   &-card-text {
-    /*margin-top: -24.1rem;
-    padding-left: 45.1rem;*/
     max-width: 33rem;
   }
 
   &-icons {
-    /*margin-left: 5rem;*/
     width: 32.1rem;
     height: 56.8rem;
     background: url(../assets/img/UK_map.png);
@@ -330,11 +353,15 @@ p {
   &-card-name {
     font-family: bebasneue;
     font-size: 3.6rem;
-    /*margin-left: 56.8rem;*/
   }
 
   &-card-link {
     color: black;
+    text-decoration: none;
+  }
+
+  &-card-link:hover {
+    color: var(--yellow);
     text-decoration: none;
   }
 
@@ -352,6 +379,15 @@ p {
     padding: 2.5rem 3rem 2.5rem 13rem;
   }
 
+  &-img {
+    margin-left: -18rem;
+    margin-bottom: -11rem;
+  }
+
+}
+
+.map-resto-icon:hover {
+  fill: var(--grey);
 }
 
 .hot-spicy {
