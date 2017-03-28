@@ -312,11 +312,13 @@ p {
     /*position: absolute;
     margin-left: 45rem;
     margin-top: -16.3rem;*/
+    margin-bottom: 1rem;
   }
 
   &-card-text {
     /*margin-top: -24.1rem;
     padding-left: 45.1rem;*/
+    max-width: 33rem;
   }
 
   &-icons {
@@ -325,6 +327,7 @@ p {
     height: 56.8rem;
     background: url(../assets/img/UK_map.png);
     background-repeat: no-repeat;
+    margin-right: 8rem;
   }
 
   &-card-name {
@@ -342,6 +345,14 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -9rem;
+    margin-left: -8rem;
+  }
+
+  & .fav-resto-detail {
+    margin-top: 9rem;
+    border: 5px solid black;
+    padding: 2.5rem 3rem 2.5rem 13rem;
   }
 
 }
