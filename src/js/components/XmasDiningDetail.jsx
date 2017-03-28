@@ -7,7 +7,7 @@ const XmasDiningDetail = ({title, text, img, time}) => {
         <header className='xmas-dining-detail-header'>
           <h1 className='xmas-dining-detail-title'>{title}</h1>
         </header>
-        <p className='section-text xmas-dining-detail-text'>{text}</p>
+        <p className='section-text xmas-dining-detail-text' dangerouslySetInnerHTML={{__html: text}}></p>
       </div>
       <div className='xmas-dining-detail-img-container'>
         <img className='xmas-dining-detail-img' src={img} alt={title} title={title} />
