@@ -38,7 +38,7 @@ const data =  {
     img: `assets/img/big_chicken.png`
   }
 };
-console.log(data);
+
 class Restos extends Component {
   state = {
     value: `pizza`
