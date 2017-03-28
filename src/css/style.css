@@ -478,7 +478,8 @@ p {
 
   &-article {
     display: flex;
-    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
   }
 
   &-detail-texts {
@@ -490,6 +491,10 @@ p {
   &-detail-header {
     font-size: 3rem;
     margin-bottom: 1rem;
+  }
+
+  &-img-insider {
+    padding-right: 4rem;
   }
 
 }
