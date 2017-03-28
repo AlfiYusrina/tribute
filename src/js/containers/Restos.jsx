@@ -48,7 +48,7 @@ class Restos extends Component {
     const item = data[value];
     return (
       <article className='fav-restos-article'>
-        <svg className='fav-restos-icons' version='1.1' alt='Five icons on a map' title='favourite restos' width='321' height='568'>
+        <svg className='fav-restos-icons' version='1.1'>
           <FarvallaIcon active={value === `farvala`} onClick={this.handleIconClick} />
           <FishIcon active={value === `fish`} onClick={this.handleIconClick} />
           <PizzaIcon active={value === `pizza`} onClick={this.handleIconClick} />
