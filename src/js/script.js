@@ -7,6 +7,7 @@ import CatSound from './containers/CatSound';
 import JapanSong from './containers/JapanSong';
 import Drinks from './containers/Drinks';
 import Restos from './containers/Restos';
+import Spicy from './containers/Spicy';
 const init = () => {
 
   render(
@@ -28,6 +29,10 @@ const init = () => {
   render(
     <Restos />,
     document.querySelector(`.restos`)
+  );
+  render(
+    <Spicy />,
+    document.querySelector(`.spicyimg`)
   );
 };
 
