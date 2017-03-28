@@ -573,6 +573,7 @@ footer {
   height: 17rem;
   display: flex;
   justify-content: space-around;
+  padding-top: 4rem;
 
   & ul {
     display: flex;
@@ -583,6 +584,14 @@ footer {
     margin-left: 15rem;
     font-size: 2.5rem;
     font-family: 'bebas_neuebold';
+  }
+
+  & .social-medias {
+    margin-left: -40rem;
+  }
+
+  & .social-medias img {
+    margin-left: 3rem;
   }
 
 }
