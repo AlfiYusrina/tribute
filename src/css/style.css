@@ -451,29 +451,27 @@ p {
 
 .xmas-dining {
   background-color: var(--yellow);
-  /*display: flex;
-  justify-content: center;*/
+  padding-bottom: 2rem;
 
   &-insider {
     width: 96rem;
-    /*display: flex;
-    flex-direction: column;*/
+    margin: 0 auto;
   }
 
   &-highlight {
     color: var(--grey);
   }
 
-  & header {
+  &-header {
     max-width: 72rem;
-    /*display: flex;
-    flex-direction: column;
-    align-items: flex-end;*/
+    margin-left: 26rem;
+    margin-bottom: 3rem;
   }
 
-  & header .section-title {
+  & .section-title {
     margin-bottom: 2.5rem;
     padding-top: 3.5rem;
+    margin-left: 19.6rem;
   }
 
   &-article {
@@ -500,6 +498,24 @@ p {
   &-detail-img-container {
     margin-top: -16.5rem;
     margin-left: 51rem;
+  }
+
+  &-clock {
+    margin-top: -19rem;
+  }
+
+  &-detail {
+    margin-bottom: 3rem;
+  }
+
+  &-detail-time {
+    font-family: 'bebas_neuebold';
+    color: var(--yellow);
+    font-size: 10rem;
+    position: absolute;
+    margin-top: -9.6rem;
+    margin-left: 1rem;
+    opacity: .85;
   }
 
 }
