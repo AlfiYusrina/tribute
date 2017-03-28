@@ -375,7 +375,7 @@ p {
 
   &-detail {
     margin-top: 13rem;
-    border: 5px solid black;
+    border: .5rem solid black;
     padding: 2.5rem 3rem 2.5rem 13rem;
   }
 
@@ -399,7 +399,28 @@ p {
   &-quoteText {
     font-family: 'bebas_neuebold';
     font-size: 2rem;
+    max-width: 49rem;
+    border-bottom: 3px solid var(--yellow);
+    border-top: 3px solid var(--yellow);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 15rem;
   }
+
+  &-insider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &-texts {
+    max-width: 62rem;
+  }
+
+  & header {
+    margin-bottom: 2.5rem;
+  }
+
 }
 
 /*.xmas-dining {
