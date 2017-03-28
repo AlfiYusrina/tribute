@@ -11,7 +11,7 @@ const DetailResto = ({
       <header className='fav-restos-card'>
         <h1 className='fav-restos-card-name'><a className='fav-restos-card-link' href={link}>{title}</a></h1>
       </header>
-      <p className='section-text fav-restos-card-text'>{text}</p>
+      <p className='fav-restos-card-text'>{text}</p>
       </div>
   );
 
