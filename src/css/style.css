@@ -98,15 +98,47 @@ p {
     margin-bottom: 2.5rem;
   }
 
-  & p {
+  & .section-text {
     position: absolute;
     width: 78rem;
     margin-left: 22rem;
   }
 
-  & .cats-photos {
-    margin-top: 8.5rem;
-    margin-left: 2.5rem;
+  &-photos {
+    display: flex;
+    margin-left: -54rem;
+    margin-top: 85px;
+  }
+
+  &-photos img {
+    position: absolute;
+  }
+
+  &-video {
+    margin-left: 122rem;
+  }
+
+  &-meet {
+    position: absolute;
+    margin-top: -4.5rem;
+    margin-left: 128rem;
+    font-size: 7.2rem;
+  }
+
+  &-detail-text {
+    margin-left: 112rem;
+    position: absolute;
+    max-width: 54rem;
+    margin-top: 4rem;
+    border-bottom: 3px solid var(--yellow);
+    border-top: 3px solid var(--yellow);
+    padding: 1.5rem 0;
+  }
+
+  &-paws {
+    position: absolute;
+    margin-left: 120rem;
+    margin-top: -2rem;
   }
 
 }
