@@ -141,6 +141,12 @@ p {
     margin-top: -2rem;
   }
 
+  & nav {
+    position: absolute;
+    margin-left: 106rem;
+    margin-top: -80rem;
+  }
+
 }
 
 .section-title {
