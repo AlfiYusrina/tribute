@@ -15,6 +15,7 @@ const SliderLine = ({value, onChangeT, channel}) => {
       onChange={handleChangeSlider}
       value={value} max='24' />
       <SliderLabel value={`${value}`} />
+      <SliderLabel value=': 00' />
     </article>
   );
 };

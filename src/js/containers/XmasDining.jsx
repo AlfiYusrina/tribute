@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import SliderLine from '../components/SliderLine';
+import Clock from '../components/Clock';
 import XmasDiningDetail from '../components/XmasDiningDetail';
 
 const data =  {
@@ -56,8 +57,8 @@ class XmasDining extends Component {
     return (
       <article className='xmas-dining-article'>
           <div className='xmas-dining-clock'>
-            <img className='xmas-dining-img-insider' src={`assets/img/${item.time}.png`} alt={item.time} title={item.time} />
-           <SliderLine value={t} channel={`t`} onChangeT={this.handleChangeChannel} />
+          <Clock time={t} timeString={item.time} style={t} />
+          <SliderLine value={t} channel={`t`} onChangeT={this.handleChangeChannel} />
           </div>
 
         <XmasDiningDetail title={item.title} text={item.text} img={item.img} time={item.time} />

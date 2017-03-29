@@ -11,10 +11,6 @@ html {
   font-size: 62.5%;
 }
 
-/*body {
-  font-family: Arial;
-}*/
-
 h1 {
   font-family: 'bebas_neuebold';
 }
@@ -241,6 +237,12 @@ p {
 
 .clickme {
   background: url(../assets/img/clickme.png) no-repeat center center;
+}
+
+.clock {
+  position: relative;
+  top: 34rem;
+  left: 7rem;
 }
 
 .blend:hover {
@@ -683,6 +685,7 @@ p {
 
   &-clock {
     margin-top: -19rem;
+    position: relative;
   }
 
   &-detail {
