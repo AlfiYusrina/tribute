@@ -143,11 +143,121 @@ p {
 
 /*MAIN*/
 
+.cats-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 6rem auto;
+  justify-content: space-between;
+}
+
+.cats-profile {
+  padding-left: 2rem;
+}
+
+.cats-profile-header {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.cats-allcats {
+  display: flex;
+}
+
+.cats-group-1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  left: 18rem;
+  top: 3rem;
+  box-shadow: 0 8px 6px -6px grey;
+}
+
+.cats-group-3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  rotate: 5deg;
+  left: -4rem;
+  z-index: 2;
+  box-shadow: 0 8px 6px -6px grey;
+}
+
+.cats-group-2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  rotate: -5deg;
+  top: 18rem;
+  left: -15rem;
+}
+
+.bg-cat {
+  width: 18.2rem;
+  height: 20.9rem;
+  padding: 1rem;
+  margin-bottom: -1px;
+}
+
+.delilah {
+  background: var(--grey) url(../assets/img/delilahbg.png) no-repeat center center;
+}
+
+.dorothy {
+  background: var(--grey) url(../assets/img/dorothybg.png) no-repeat center center;
+}
+
+.lily {
+  background: var(--grey) url(../assets/img/lilybg.png) no-repeat center center;
+}
+
+.oscar {
+  background: var(--grey) url(../assets/img/oscarbg.png) no-repeat center center;
+}
+
+.goliath {
+  background: var(--grey) url(../assets/img/goliathbg.png) no-repeat center center;
+}
+
+.jerry {
+  background: var(--grey) url(../assets/img/jerrybg.png) no-repeat center center;
+}
+
+.tiffany {
+  background: var(--grey) url(../assets/img/tiffanybg.png) no-repeat center center;
+}
+
+.miko {
+  background: var(--grey) url(../assets/img/mikobg.png) no-repeat center center;
+}
+
+.tom {
+  background: var(--grey) url(../assets/img/tombg.png) no-repeat center center;
+}
+
+.romeo {
+  background: var(--grey) url(../assets/img/romeobg.png) no-repeat center center;
+}
+
+.clickme {
+  background: url(../assets/img/clickme.png) no-repeat center center;
+}
+
+.blend:hover {
+  background-color: var(--yellow);
+  background-blend-mode: multiply;
+}
+
 .cats {
-  height: 100rem;
+  margin: 3rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  &-header {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
 
   & .section-title {
     margin-left: 22rem;
@@ -161,29 +271,13 @@ p {
     margin-left: 22rem;
   }
 
-  &-photos {
-    display: flex;
-    margin-left: -54rem;
-    margin-top: 85px;
-  }
-
-  &-photos img {
-    position: absolute;
-  }
-
-  &-video {
-    margin-left: 122rem;
-  }
-
   &-meet {
     position: absolute;
     margin-top: -4.5rem;
-    margin-left: 128rem;
     font-size: 7.2rem;
   }
 
   &-detail-text {
-    margin-left: 112rem;
     position: absolute;
     max-width: 54rem;
     margin-top: 4rem;
@@ -194,10 +288,8 @@ p {
 
   &-paws {
     position: absolute;
-    margin-left: 120rem;
     margin-top: -2rem;
   }
-
 }
 
 .section-title {
