@@ -79,13 +79,13 @@ p {
 
   & .big_newspaper {
     float: right;
-    margin-top: -93rem;
+    margin-top: -65.1rem;
   }
 
   &-nav {
-    position: absolute;
-    margin-left: 106rem;
     margin-top: -80rem;
+    display: flex;
+    justify-content: flex-end;
   }
 
   &-nav1 {
@@ -105,13 +105,27 @@ p {
     height: 17rem;
     width: 37rem;
     margin-top: 6.2rem;
-    padding-top: 8rem;
+    padding-top: 4.6rem;
     padding-left: 10rem;
+  }
+
+  &-nav2 div {
+    transform: rotate(-16deg);
   }
 
   &-nav3 {
     background: url(../assets/img/nav_paper3.png);
     background-repeat: no-repeat;
+    height: 19rem;
+    width: 41rem;
+    margin-left: -5rem;
+    padding-top: 7.8rem;
+    padding-left: 8rem;
+    margin-top: 7rem;
+  }
+
+  &-nav3 div {
+    transform: rotate(15deg);
   }
 
   & a {
@@ -119,6 +133,10 @@ p {
     color: black;
     text-decoration: none;
     font-family: 'bebas_neuebold';
+  }
+
+  &-smallnav {
+    display: none;
   }
 
 }
@@ -673,8 +691,12 @@ footer {
 
 @media (width <= 700px) {
 
+  p {
+    font-size: 1.6rem;
+  }
+
   .header {
-    height: 80rem;
+    height: 95rem;
 
     &-title {
       margin-left: 43.5rem;
@@ -693,29 +715,79 @@ footer {
       margin-top: 1rem;
     }
 
-    /*&-insider {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-left: -43rem;
-    }
-
-    &-presented {
-      color: #d9b733;
-      font-family: 'bebas neue';
-      font-size: 2.6rem;
-      margin-right: .8rem;
-    }
-
     &-text {
-      border-top: .4rem solid white;
-      padding-top: 2.5rem;
-      margin-top: 6rem;
-      max-width: 71rem;
-    }*/
+      max-width: 23rem;
+      margin-left: 44rem;
+    }
 
     & .big_newspaper {
       display: none;
+    }
+
+    &-nav li {
+      background: none;
+    }
+
+    &-nav div {
+      transform: rotate(0deg);
+    }
+
+    &-nav a {
+      font-size: 2rem;
+    }
+
+    &-nav {
+      display: none;
+    }
+
+    &-smallnav {
+      display: inline;
+    }
+
+    &-smallnav ul {
+      display: flex;
+      justify-content: center;
+      margin-top: -48rem;
+    }
+
+    &-smallnav a {
+      font-size: 2.3rem;
+    }
+
+    &-smallnav-food {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+
+  }
+
+  .cats {
+
+    &-photos {
+      display: none;
+    }
+
+    & header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    & .section-title {
+      margin-left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    & .section-title::before {
+      display: inherit;
+    }
+
+    & .section-text {
+      position: relative;
+      max-width: 28rem;
+      margin-left: 0;
     }
 
   }

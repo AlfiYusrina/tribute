@@ -52,14 +52,37 @@
     </div>
     <nav class="header-nav">
       <ul>
-        <li class="header-nav1"><a href="#cats">Cats</a></li>
-        <li class="header-nav2"><a href="#food">Food</a></li>
-        <li class="header-nav3"><a href="#japan">Japan</a></li>
+        <li class="header-nav1">
+          <a href="#cats">Cats</a>
+        </li>
+        <li class="header-nav2">
+          <div>
+            <a href="#food">Food</a>
+          </div>
+        </li>
+        <li class="header-nav3">
+          <div>
+            <a href="#japan">Japan</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <nav class="header-smallnav">
+      <ul>
+        <li>
+          <a href="#cats">Cats</a>
+        </li>
+        <li class="header-smallnav-food">
+          <a href="#food">Food</a>
+        </li>
+        <li>
+          <a href="#japan">Japan</a>
+        </li>
       </ul>
     </nav>
     <img src="assets/img/big_newspaper_header.png" alt="newspaper" class="big_newspaper">
   </header>
-  <main>
+  <main id="cats">
     <section class="cats">
       <header>
         <h1 class="section-title">Freddie is ailurophile</h1>
@@ -150,7 +173,7 @@
         <img class='what-now-img' src='assets/img/catsleepy.gif' alt='Cat is asleep' title='Sleepy Cat' />
       </div>
     </section>
-    <section class='foods'>
+    <section class='foods' id="food">
       <div class='foods-insider'>
         <img class='foods-img' src='assets/img/cookiesandtea.gif' alt='Cookies and Tea' title='Cookies and Tea' />
         <div class="foods-text">
@@ -231,7 +254,7 @@
         </div>
       </div>
     </section>
-    <section class='japan'>
+    <section class='japan' id="japan">
       <div class="japan-insider">
         <header>
           <h1 class='section-title'>Sushi and Sashimi</h1>
