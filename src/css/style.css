@@ -1193,6 +1193,101 @@ footer {
       max-width: 26rem;
     }
 
+    &-quote-img {
+      margin-top: 23.5rem;
+    }
+
+  }
+
+  .xmas-dining {
+
+    & .section-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    & .section-title::before {
+      display: inherit;
+      margin-bottom: 1rem;
+      margin-right: 0;
+    }
+
+    & .section-text {
+      max-width: 28rem;
+      margin-left: 2rem;
+    }
+
+    &-header {
+      margin-left: 0;
+    }
+
+    &-insider {
+      max-width: 32rem;
+    }
+
+    &-article {
+      flex-direction: column;
+    }
+
+    &-clock {
+      transform: scale(.7);
+      margin-top: -27rem;
+    }
+
+    &-detail-img-container {
+      display: none;
+    }
+
+    &-detail {
+      max-width: 32rem;
+    }
+
+    &-detail-texts {
+      padding: 1rem 1.5rem 2rem;
+    }
+
+    &-detail-header {
+      text-align: center;
+    }
+
+  }
+
+  .japan {
+    flex-direction: column;
+
+    & .section-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    & .section-title::before {
+      display: inherit;
+      margin-bottom: 1rem;
+      margin-right: 0;
+    }
+
+    & .section-text {
+      max-width: 28rem;
+      margin-left: 2rem;
+    }
+
+    &-insider {
+      margin-right: 0;
+    }
+
+    & header {
+      padding-top: 2rem;
+      margin-left: 0;
+    }
+
   }
 
 }
