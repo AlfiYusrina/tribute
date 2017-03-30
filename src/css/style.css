@@ -701,6 +701,10 @@ p {
     position: relative;
   }
 
+  &-clock div {
+    margin-top: -14rem;
+  }
+
   &-detail {
     margin-bottom: 3rem;
   }
@@ -713,6 +717,16 @@ p {
     margin-top: 11.5rem;
     margin-left: -26rem;
     opacity: .85;
+  }
+
+  & .slider {
+    margin-left: 11.5rem;
+    margin-top: 2rem;
+  }
+
+  & .slider-label {
+    font-size: 2rem;
+    font-family: 'bebas_neuebold';
   }
 
 }
