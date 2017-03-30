@@ -14,39 +14,71 @@ const cats =  {
   },
   goliath: {
     name: `Goliath`,
-    text: `<span class='yellow'>Goliath </span>, a little black cat, arrived the same day as Delilah. The tiny creature disappeared a lot, mostly when Freddie had company. One day, when Goliath was gone for a long time, Freddie was so scared that he and his staff desperately searched the whole house. Eventually they found him sleeping in the marble sink of his bathroom.`
+    text: `<span class='yellow'>Goliath </span>, a little black cat, arrived the
+    same day as Delilah. The tiny creature disappeared a lot, mostly when Freddie
+    had company. One day, when <span class='yellow'>Goliath</span> was gone for
+    a long time, Freddie was so scared that he and his staff desperately searched
+    the whole house. Eventually they found him sleeping in the marble sink of his
+    bathroom.`
   },
   romeo: {
     name: `Romeo`,
-    text: `Mercury had another one, <span class='yellow'>Romeo</span>. This little white-faced cat was found by Jim Hutton, Freddies boyfriend. Romeo Turned out quite the fighter. Freddie always wanted a white cat and was very happy to have him. Later, he also had Lily, another white cat.`
+    text: `Mercury had another one, <span class='yellow'>Romeo</span>. This
+    little white-faced cat was found by Jim Hutton, Freddies boyfriend.
+    <span class='yellow'>Romeo</span> Turned out quite the fighter. Freddie
+    always wanted a white cat and was very happy to have him.`
   },
   lily: {
     name: `Lily`,
-    text: `Freddie always wanted a white cat and was very happy to have him. Later, he also had <span class='yellow'>Lily</span>, another white cat.`
+    text: `Later, he also had <span class='yellow'>Lily</span>, another white cat.`
   },
   miko: {
     name: `Miko`,
-    text: `<span class='yellow'>Miko</span>, yet another cat, came with Freddie from a trip to Japan, one of his favourite countries. Japan was very inspiring for him so he gave this cat a Japanese name. `
+    text: `<span class='yellow'>Miko</span>, yet another cat, came with Freddie
+    from a trip to Japan, one of his favourite countries. Japan was very inspiring
+    for him so he gave this cat a Japanese name. `
   },
   oscar: {
     name: `Oscar`,
-    text: `One of the other cats, <span class='yellow'>Oscar</span> , came into his life via his formal boyfriend, Tony Bastin. But one day, when Tony was unfaithful, Freddie broke up with him and kept his cat Oscar out of revenge. Oscar was an orange and white cat and was a bit of a lonely tom. He went to visit other homes in the neighbourhood. Freddie had homes across the world, but all of his cats lived in Garden Lodge and this place is also were Freddie spent most of his time.`
+    text: `One of the other cats, <span class='yellow'>Oscar</span> , came into
+    his life via his formal boyfriend, Tony Bastin. But one day, when Tony was
+    unfaithful, Freddie broke up with him and kept his cat
+    <span class='yellow'>Oscar</span> out of revenge.
+    <span class='yellow'>Oscar</span> was an orange and white cat and was a bit
+    of a lonely tom. He went to visit other homes in the neighbourhood. Freddie
+    had homes across the world, but all of his cats lived in Garden Lodge and
+    this place is also were Freddie spent most of his time.`
   },
   tom: {
     name: `Tom`,
-    text: `Freddie always wanted a white cat and was very happy to have him. Later, he also had <span class='yellow'>Lily</span>, another white cat.`
+    text: `His first two cats were <span class='yellow'>Tom</span> and Jerry. He
+    brought them in with Mary Austin, his ex-girlfriend and best friend, when
+    Queen just started. He was fond of them and dedicated his album ‘Mr. Bad Guy’
+    to Jerry. This was written by him: "This album is dedicated to my cat Jerry -
+    also <span class='yellow'>Tom</span>, Oscar and Tiffany, and all the cat
+    lovers across the universe - screw everybody else!”`
   },
   jerry: {
     name: `Jerry`,
-    text: `Freddie always wanted a white cat and was very happy to have him. Later, he also had <span class='yellow'>Lily</span>, another white cat.`
+    text: `His first two cats were Tom and <span class='yellow'>Jerry</span>. He
+    brought them in with Mary Austin, his ex-girlfriend and best friend, when
+    Queen just started. He was fond of them and dedicated his album ‘Mr. Bad Guy’
+    to <span class='yellow'>Jerry</span>. This was written by him: "This album is
+    dedicated to my cat <span class='yellow'>Jerry</span> - also
+    Tom, Oscar and Tiffany, and all the cat lovers across the universe - screw
+    everybody else!”`
   },
   tiffany: {
     name: `Tiffany`,
-    text: `His first two cats were <span class='yellow'>Tom</span> and <span class='yellow'>Jerry</span>. He brought them in with Mary Austin, his ex-girlfriend and best friend, when Queen just started.  He was fond of them and dedicated his album ‘Mr. Bad Guy’ to Jerry. This was written by him: "This album is dedicated to my cat Jerry - also <span class='yellow'>Tom</span>, <span class='yellow'>Oscar</span> and <span class='yellow'>Tiffany</span>, and all the cat lovers across the universe - screw everybody else!” Austin also gave Freddie another cat, Tiffany. She was a longhaired bluepoint and was very lovely.`
+    text: `Mary Austin also gave Freddie another cat,
+    <span class='yellow'>Tiffany.</span> She was a longhaired bluepoint and was
+    very lovely.`
   },
   dorothy: {
     name: `Dorothy`,
-    text: `The last one, a sweet grey cat called <span class='yellow'>Dorothy</span>, was adopted by him and his boyfriend Jim in Munich. She is the only cat that lives there and not in London.`
+    text: `A sweet grey cat called <span class='yellow'>Dorothy</span>,
+    was adopted by him and his boyfriend Jim in Munich. She is the only cat that
+    lives there and not in London.`
   }
 };
 
