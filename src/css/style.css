@@ -842,7 +842,7 @@ footer {
     &-smallnav ul {
       display: flex;
       justify-content: center;
-      margin-top: -48rem;
+      margin-top: -54rem;
     }
 
     &-smallnav a {
@@ -857,6 +857,7 @@ footer {
   }
 
   .cats {
+    height: 150rem;
 
     &-photos {
       display: none;
@@ -868,6 +869,10 @@ footer {
       align-items: center;
     }
 
+    &-header {
+      margin-top: -3rem;
+    }
+
     & .section-title {
       margin-left: 0;
       display: flex;
@@ -877,12 +882,69 @@ footer {
 
     & .section-title::before {
       display: inherit;
+      margin-bottom: 1rem;
     }
 
     & .section-text {
       position: relative;
       max-width: 28rem;
       margin-left: 0;
+    }
+
+    &-profile {
+      margin-top: -7rem;
+      padding-left: 0;
+    }
+
+    &-paws {
+      display: none;
+    }
+
+    &-meet {
+      margin-top: 28.5rem;
+      font-size: 6.2rem;
+      margin-left: -.3rem;
+    }
+
+    &-detail-text {
+      max-width: 28rem;
+      margin-left: 2rem;
+    }
+
+  }
+
+  .spoiled-cats {
+    background: none;
+    background-color: var(--yellow);
+    height: 155rem;
+
+    &-insider {
+      margin-left: 0;
+    }
+
+    & .section-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+
+    & .section-title::before {
+      display: inherit;
+      margin-bottom: 1rem;
+      margin-right: 0;
+    }
+
+    &-text {
+      position: relative;
+      max-width: 28rem;
+      margin-left: 0;
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
   }
