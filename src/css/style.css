@@ -916,7 +916,7 @@ footer {
   .spoiled-cats {
     background: none;
     background-color: var(--yellow);
-    height: 155rem;
+    height: 123rem;
 
     &-insider {
       margin-left: 0;
@@ -945,6 +945,149 @@ footer {
       display: flex;
       flex-direction: column;
       align-items: center;
+    }
+
+    & .catssound img {
+      width: 21rem;
+      margin-left: 7rem;
+      margin-top: -2rem;
+    }
+
+  }
+
+  .what-now {
+    height: 68rem;
+
+    &-cloud {
+      display: none;
+    }
+
+    &-insider {
+      flex-direction: column;
+    }
+
+    & .section-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+
+    & .section-title::before {
+      display: inherit;
+      margin-bottom: 1rem;
+      margin-right: 0;
+    }
+
+    & .section-text {
+      max-width: 28rem;
+    }
+
+    &-img {
+      width: 32rem;
+      margin-top: -3rem;
+    }
+
+  }
+
+  .foods {
+    background: none;
+    background-color: var(--grey);
+
+    &-img {
+      position: absolute;
+      width: 23rem;
+      height: 16rem;
+      margin-top: 18rem;
+    }
+
+    &-img2 {
+      display: none;
+    }
+
+    & header {
+      margin-left: 0;
+    }
+
+    &-text {
+      margin-left: 0;
+      margin-right: 0;
+      max-width: 28rem;
+    }
+
+    & .section-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+
+    & .section-title::before {
+      display: inherit;
+      margin-bottom: 1rem;
+      margin-right: 0;
+    }
+
+    &-insider {
+      margin-right: 0;
+      padding-top: 3.5rem;
+    }
+
+  }
+
+  .wine {
+    height: 117rem;
+
+    &-texts {
+      margin-right: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 3.5rem;
+    }
+
+    &-insider {
+      flex-direction: column;
+    }
+
+    & .section-text {
+      max-width: 28rem;
+    }
+
+    & .section-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+
+    & .section-title::before {
+      display: inherit;
+      margin-bottom: 1rem;
+      margin-right: 0;
+    }
+
+    & header {
+      margin-bottom: 38rem;
+    }
+
+    &-images {
+      position: absolute;
+      margin-left: 4rem;
+      margin-top: -2.6rem;
+    }
+
+    &-img {
+      width: 20rem;
+    }
+
+    & .drinks {
+      margin-top: 0;
+      margin-left: -4rem;
+    }
+
+    &-newspaper {
+      display: none;
     }
 
   }
