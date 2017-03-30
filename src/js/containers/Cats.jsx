@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import CatPhotos from '../components/CatPhotos';
+import CatsMobile from '../components/CatsMobile';
 import DetailCat from '../components/DetailCat';
 
 const cats =  {
@@ -65,6 +66,7 @@ class Cats extends Component {
 
     return (
       <div className='cats-wrapper'>
+      <CatsMobile onClick={this.handlePhotoClick} />
       <CatPhotos onClick={this.handlePhotoClick} />
       <DetailCat name={item.name} text={item.text} />
       </div>
