@@ -14,7 +14,8 @@ class JapanSong extends Component  {
 
   render() {
     return (
-      <img src='assets/img/hakataDoll.png' alt='Press to play the song' title='Hakata Doll button' onClick={this.handleClickAudio} />
+      <img src='assets/img/hakataDoll.png' alt='Press to play the song'
+      title='Hakata Doll button' onClick={this.handleClickAudio} />
     );
   }
 }
