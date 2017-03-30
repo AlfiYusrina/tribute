@@ -277,6 +277,7 @@ p {
     position: absolute;
     margin-top: -4.5rem;
     font-size: 7.2rem;
+    color: var(--yellow);
   }
 
   &-detail-text {
@@ -1082,12 +1083,114 @@ footer {
     }
 
     & .drinks {
-      margin-top: 0;
       margin-left: -4rem;
+      margin-top: 4.7rem;
+
     }
 
     &-newspaper {
       display: none;
+    }
+
+  }
+
+  .fav-restos {
+    background-size: 100vw 124rem;
+    height: 124rem;
+
+    &-newspaper {
+      display: none;
+    }
+
+    & .section-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      margin-top: 6.5rem;
+    }
+
+    & .section-title::before {
+      display: inherit;
+      margin-bottom: 1rem;
+      margin-right: 0;
+    }
+
+    &-header {
+      margin-left: 0;
+    }
+
+    & .section-text {
+      max-width: 28rem;
+    }
+
+    &-article {
+      flex-direction: column;
+      margin-left: 0;
+      margin-top: -6rem;
+    }
+
+    &-icons {
+      margin-right: 0;
+      transform: scale(.7);
+    }
+
+    &-detail {
+      flex-direction: column;
+      margin-top: -6rem;
+      padding: 1.5rem 2.5rem 1.5rem 5rem;
+      margin-left: 8rem;
+      margin-right: 2rem;
+    }
+
+    &-img {
+      width: 9rem;
+      margin-left: -10rem;
+    }
+
+    &-card-name {
+      font-size: 3rem;
+    }
+
+  }
+
+  .hot-spicy {
+
+    & .section-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      margin-top: 2rem;
+    }
+
+    & .section-title::before {
+      display: inherit;
+      margin-bottom: 1rem;
+      margin-right: 0;
+    }
+
+    &-insider {
+      margin-top: 0;
+    }
+
+    & .section-text {
+      max-width: 28rem;
+    }
+
+    & .spicyimg {
+      margin-top: -30rem;
+    }
+
+    &-img {
+      width: 29rem;
+      margin-top: -29rem;
+    }
+
+    &-quoteText {
+      padding-left: 11rem;
+      margin-top: 26rem;
+      max-width: 26rem;
     }
 
   }
