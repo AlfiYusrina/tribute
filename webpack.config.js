@@ -105,6 +105,7 @@ const config = {
         test: /\.html$/,
         loader: `html-loader`,
         options: {
+          removeAttributeQuotes: false,
           attrs: [
             `audio:src`,
             `img:src`,
@@ -165,7 +166,7 @@ const config = {
 
     ifDevelopment(new HotModuleReplacementPlugin()),
 
-    
+
 
     ifProduction(copy),
     ifProduction(extractCSS),
