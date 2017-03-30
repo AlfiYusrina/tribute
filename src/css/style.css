@@ -1244,6 +1244,7 @@ footer {
 
     &-detail {
       max-width: 32rem;
+      margin-top: -3rem;
     }
 
     &-detail-texts {
@@ -1286,6 +1287,89 @@ footer {
     & header {
       padding-top: 2rem;
       margin-left: 0;
+      margin-bottom: 3rem;
+    }
+
+    &-img {
+      width: 22rem;
+      margin-left: -1.7rem;
+    }
+
+    & .japanSong img {
+      margin-top: 21.3rem;
+      margin-left: -17.5rem;
+      width: 20rem;
+    }
+
+    &-imgs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &-texts {
+      margin: 0 auto;
+      margin-top: 2rem;
+      max-width: 28rem;
+    }
+
+    &-icon {
+      margin-top: -5.7rem;
+      margin-left: 19rem;
+    }
+
+    &-quote {
+      padding-right: 6.5rem;
+      max-width: 26rem;
+    }
+
+  }
+
+  footer {
+    justify-content: space-between;
+
+    & img {
+      width: 8rem;
+    }
+
+    & .nostalgie-nav {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 5rem;
+      margin-top: 1rem;
+    }
+
+    & .nostalgie-nav li {
+      font-size: 1.7rem;
+    }
+
+    & .fb {
+      width: 2.5rem;
+      margin-left: .8rem;
+      padding-right: 1rem;
+    }
+
+    & .twitter {
+      width: 3rem;
+    }
+
+    & .insta {
+      width: 2.8rem;
+    }
+
+    & .google {
+      width: 4rem;
+    }
+
+    & .social-medias {
+      flex-wrap: wrap;
+      max-width: 14rem;
+      margin-right: 2rem;
+    }
+
+    & .nav {
+      margin-left: 0;
+      padding-top: 1rem;
     }
 
   }
