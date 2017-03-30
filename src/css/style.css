@@ -29,6 +29,10 @@ p {
   color: var(--yellow);
 }
 
+.active {
+  fill: white;
+}
+
 /*HEADER*/
 
 .header {
@@ -246,6 +250,11 @@ p {
 }
 
 .blend:hover {
+  background-color: var(--yellow);
+  background-blend-mode: multiply;
+}
+
+.blendactive {
   background-color: var(--yellow);
   background-blend-mode: multiply;
 }

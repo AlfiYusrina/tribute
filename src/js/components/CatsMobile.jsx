@@ -1,24 +1,25 @@
 import React, {PropTypes} from 'react';
 
-const CatsMobile = ({onClick}) => {
+const CatsMobile = ({value, onChange}) => {
   return (
-      <select className='1'>
-        <option id='delilah' className='ded' onClick={onClick} > Delilah </option>
-        <option id='lily' className='bd' onClick={onClick} > Lily </option>
-        <option id='oscar' className='bgd' onClick={onClick} > Oscar </option>
-        <option id='goliath' className='bgnd' onClick={onClick} > Goliath </option>
-        <option id='dorothy' className='bld' onClick={onClick} > Dorothy </option>
-        <option id='tom' className='bnd' onClick={onClick} > Tom </option>
-        <option id='romeo' className='bgd' onClick={onClick} > Romeo </option>
-        <option id='jerry' className='bgnd' onClick={onClick} > Jerry </option>
-        <option id='tiffany' className='bg-cand' onClick={onClick} > Tiffany </option>
-        <option id='miko' className='bg-nd' onClick={onClick} > Miko </option>
+      <select value={value} onChange={onChange} className='selectCat'>
+        <option value='delilah' className='cat-option' > Delilah </option>
+        <option value='lily' className='cat-option' > Lily </option>
+        <option value='oscar' className='cat-option' > Oscar </option>
+        <option value='goliath' className='cat-option' > Goliath </option>
+        <option value='dorothy' className='cat-option' > Dorothy </option>
+        <option value='tom' className='cat-option' > Tom </option>
+        <option value='romeo' className='cat-option' > Romeo </option>
+        <option value='jerry' className='cat-option' > Jerry </option>
+        <option value='tiffany' className='cat-option' > Tiffany </option>
+        <option value='miko' className='cat-option' > Miko </option>
       </select>
   );
 };
 
 CatsMobile.propTypes = {
-  onClick: PropTypes.func.isRequired
+  onChange: PropTypes.func.isRequired,
+  value: PropTypes.string.isRequired
 };
 
 export default CatsMobile;

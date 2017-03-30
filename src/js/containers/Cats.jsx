@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import CatPhotos from '../components/CatPhotos';
 import CatsMobile from '../components/CatsMobile';
+import CatPhotos from '../components/CatPhotos';
 import DetailCat from '../components/DetailCat';
 
 const cats =  {
@@ -92,14 +92,22 @@ class Cats extends Component {
     this.setState({value});
   }
 
+  handleChange = e  => {
+    this.setState({value: e.target.value});
+  }
+
   render() {
     const {value} = this.state;
     const item = cats[value];
 
     return (
       <div className='cats-wrapper'>
-      <CatsMobile onClick={this.handlePhotoClick} />
-      <CatPhotos onClick={this.handlePhotoClick} />
+      <div className='cats-selector'>
+        <span className='cats-select-label' >Choose Freddie&apos;s Cat</span>
+        <CatsMobile value={value} onChange={this.handleChange} />
+      </div>
+
+      <CatPhotos onClick={this.handlePhotoClick} value={value} />
       <DetailCat name={item.name} text={item.text} />
       </div>
     );
