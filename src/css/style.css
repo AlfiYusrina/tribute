@@ -1082,6 +1082,40 @@ footer {
 
 @media (width <= 1040px) {
 
+  .header {
+    height: 100rem;
+
+    &-text {
+      margin-top: 11rem;
+    }
+
+    &-nav {
+      position: absolute;
+      margin-top: -26rem;
+      margin-left: 25%;
+      margin-right: 0;
+    }
+
+    &-nav li {
+      background: none;
+      padding: 0;
+      margin: 0;
+      transform: rotate(0deg);
+      height: 5rem;
+      width: 10rem;
+    }
+
+    &-nav div {
+      transform: rotate(0deg);
+    }
+
+    &-nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+  }
+
   .what-now {
 
     & .section-text {
@@ -1095,11 +1129,15 @@ footer {
     &-img {
       width: 29rem;
       height: 20rem;
+      position: absolute;
+      margin-top: -5rem;
+      margin-left: -25rem;
     }
 
     &-text {
       max-width: 48rem;
       margin-right: 0;
+      margin-left: 33.5rem;
     }
 
     & header {
@@ -1108,16 +1146,62 @@ footer {
 
   }
 
+  .fav-restos {
+
+    &-icons {
+      margin-right: 2rem;
+      transform: scale(.8);
+    }
+
+  }
+
   .xmas-dining {
+    height: 53rem;
 
     &-detail-time {
-      font-size: 7rem;
-      margin-left: -19rem;
-      margin-top: 8.5rem;
+      display: none;
+    }
+
+    &-detail-texts {
+      margin-left: -7rem;
+      margin-top: -12rem;
+      padding: 1rem 1.5rem 2rem;
     }
 
     &-detail-img {
-      width: 20rem;
+      display: none;
+    }
+
+    &-article-wrapper {
+      margin-left: -3rem;
+      margin-top: 5rem;
+    }
+
+    &-insider {
+      /*margin: 0;*/
+    }
+
+    &-img-insider {
+      padding-right: 8rem;
+      margin-left: -7rem;
+    }
+
+    &-clock {
+      margin-top: 0;
+    }
+
+    &-clock div {
+      margin-left: -14rem;
+    }
+
+    & .slider {
+      margin-left: 12.5rem;
+      margin-top: -2rem;
+    }
+
+    & .clock {
+      top: -1.2rem;
+      left: 24rem;
     }
 
   }
