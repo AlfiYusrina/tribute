@@ -1,15 +1,25 @@
 import React, {Component} from 'react';
 
 class JapanSong extends Component  {
-
+  tate = {isToggleOn: true};
   handleClickAudio = () =>  {
-    if (this.playing)
+    if (this.audio) {
+      this.paused = !this.paused;
+      if (this.paused) {
+        this.audio.pause();
+      } else {
+        this.audio.play();
+      }
       return;
+    }
 
-    const audio = new Audio(`assets/audio/LaJaponaise.mp3`);
-    audio.play();
+    this.audio = new Audio(`assets/audio/LaJaponaise.mp3`);
+    this.audio.play();
     this.playing = true;
-    audio.addEventListener(`ended`, () => { this.playing = false; });
+    this.paused = false;
+    //audio.addEventListener(`ended`, () => { this.playing = false; });
+
+    this.setState(prevState => ({isToggleOn: !prevState.isToggleOn}));
   }
 
   render() {
