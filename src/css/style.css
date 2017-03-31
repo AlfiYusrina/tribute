@@ -1080,9 +1080,78 @@ footer {
 
 }
 
-/*@media (width <= 1020px) {
+@media (width <= 1040px) {
 
-}*/
+  .what-now {
+
+    & .section-text {
+      width: 33.9rem;
+    }
+
+  }
+
+  .foods {
+
+    &-img {
+      width: 29rem;
+      height: 20rem;
+    }
+
+    &-text {
+      max-width: 48rem;
+      margin-right: 0;
+    }
+
+    & header {
+      margin-left: 23rem;
+    }
+
+  }
+
+  .xmas-dining {
+
+    &-detail-time {
+      font-size: 7rem;
+      margin-left: -19rem;
+      margin-top: 8.5rem;
+    }
+
+    &-detail-img {
+      width: 20rem;
+    }
+
+  }
+
+  .japan {
+
+    &-img {
+      width: 32rem;
+      margin-left: 11.6rem;
+    }
+
+    & .japanSong {
+      margin-left: -1.3rem;
+    }
+
+    &-quote {
+      margin-left: -24rem;
+    }
+
+    &-icon {
+      margin-left: 3rem;
+    }
+
+  }
+
+  footer {
+
+    & .nostalgie-nav {
+      margin-right: 20rem;
+    }
+
+  }
+
+}
 
 @media (width <= 700px) {
 
