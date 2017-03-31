@@ -671,7 +671,7 @@ p {
   &-header {
     max-width: 72rem;
     margin-left: 26rem;
-    margin-bottom: 3rem;
+    margin-bottom: 15rem;
   }
 
   & .section-title {
@@ -684,6 +684,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -17rem;
   }
 
   &-detail-texts {
@@ -713,12 +714,12 @@ p {
 
   & .clock {
     position: relative;
-    top: 34rem;
-    left: 7rem;
+    top: -1.2rem;
+    left: 31rem;
   }
 
   &-clock div {
-    margin-top: -14rem;
+    margin-top: 4rem;
   }
 
   &-detail {
@@ -736,13 +737,17 @@ p {
   }
 
   & .slider {
-    margin-left: 11.5rem;
     margin-top: 2rem;
+    margin-left: 33.5rem;
   }
 
   & .slider-label {
     font-size: 2rem;
     font-family: 'bebas_neuebold';
+  }
+
+  &-article-wrapper {
+    margin-left: -5rem;
   }
 
 }
@@ -962,6 +967,18 @@ footer {
 
 }
 
+@media (width <= 1192px) {
+
+  .xmas-dining {
+
+    &-img-insider {
+      padding-right: 0;
+    }
+
+  }
+
+}
+
 @media (width <= 1150px) {
 
   .cats {
@@ -1056,10 +1073,15 @@ footer {
 
     &-header {
       margin-left: 13rem;
+      margin-bottom: 5rem;
     }
 
     & .slider {
-      margin-left: 18.5rem;
+      margin-left: 39.5rem;
+      margin-top: -2rem;
+    }
+
+    &-clock {
       margin-top: -4rem;
     }
 
@@ -1484,6 +1506,12 @@ footer {
 
     & .section-title {
       margin-left: -1.4rem;
+    }
+
+    &-article-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-left: 18rem;
     }
 
   }
@@ -1972,8 +2000,8 @@ footer {
     }
 
     &-article-wrapper {
-      margin-left: -3rem;
       margin-top: 28rem;
+      margin-left: -5rem;
     }
 
     & .slider {
@@ -2028,21 +2056,23 @@ footer {
   }
 
   footer {
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
 
     & img {
-      width: 8rem;
+      width: 13rem;
     }
 
     & .nostalgie-nav {
       flex-direction: column;
       align-items: center;
-      margin-left: 5rem;
-      margin-top: 1rem;
+      margin: 1rem 0 2rem;
     }
 
     & .nostalgie-nav li {
-      font-size: 1.7rem;
+      font-size: 3rem;
     }
 
     & .fb {
@@ -2067,6 +2097,7 @@ footer {
       flex-wrap: wrap;
       max-width: 14rem;
       margin-right: 2rem;
+      margin-left: 0;
     }
 
     & .nav {
