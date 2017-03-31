@@ -1868,6 +1868,10 @@ footer {
       margin-right: 0;
     }
 
+    &-texts {
+      margin-left: 38rem;
+    }
+
     &-insider {
       margin-top: 0;
     }
@@ -1892,7 +1896,7 @@ footer {
     }
 
     &-quote {
-      margin-top: 8rem;
+      margin-top: 4rem;
     }
 
     &-quote-img {
@@ -1902,7 +1906,7 @@ footer {
   }
 
   .xmas-dining {
-    height: 90rem;
+    height: 98rem;
 
     & .section-title {
       display: flex;
@@ -1934,7 +1938,16 @@ footer {
 
     &-clock {
       transform: scale(.7);
-      margin-top: -27rem;
+      margin-top: -47rem;
+    }
+
+    & .clock {
+      top: 34rem;
+      left: 0;
+    }
+
+    &-clock div {
+      margin-left: -4rem;
     }
 
     &-detail-img-container {
@@ -1943,7 +1956,7 @@ footer {
 
     &-detail {
       max-width: 30rem;
-      margin-top: 9rem;
+      margin-top: 7rem;
     }
 
     &-detail-texts {
@@ -1954,9 +1967,19 @@ footer {
       text-align: center;
     }
 
+    &-article {
+      margin-left: 12rem;
+      width: 20rem;
+    }
+
     &-article-wrapper {
       margin-left: -3rem;
       margin-top: 28rem;
+    }
+
+    & .slider {
+      margin-left: 2rem;
+      transform: scale(1.5);
     }
 
   }
@@ -1976,6 +1999,28 @@ footer {
       display: inherit;
       margin-bottom: 1rem;
       margin-right: 0;
+    }
+
+    &-imgs {
+      margin-left: 4.5rem;
+    }
+
+    & .japanSong {
+      margin-left: -13.3rem;
+    }
+
+    &-texts {
+      margin-left: 0;
+      width: 28rem;
+    }
+
+    &-quote {
+      margin-left: 5rem;
+    }
+
+    &-icon {
+      margin-top: -4.7rem;
+      margin-left: 20rem;
     }
 
   }
@@ -2027,6 +2072,14 @@ footer {
       padding-top: 1rem;
     }
 
+  }
+
+}
+
+@media (width <= 473px) {
+
+  .fav-restos {
+    height: 112rem;
   }
 
 }
