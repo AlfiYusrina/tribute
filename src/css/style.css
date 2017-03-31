@@ -35,6 +35,17 @@ p {
 
 /*HEADER*/
 
+.img-freddie {
+  background-image: url(../assets/img/freddie_lights_out.png);
+  width: 40.5rem;
+  height: 68rem;
+  z-index: 200;
+}
+
+.img-freddie:hover {
+  background-image: url(../assets/img/freddie_lights_on.png);
+}
+
 .header {
   background-color: var(--grey);
   height: 95rem;
