@@ -2010,17 +2010,20 @@ footer {
     }
 
     &-texts {
-      margin-left: 0;
       width: 28rem;
     }
 
+    &-text {
+      margin-left: 0;
+    }
+
     &-quote {
-      margin-left: 5rem;
+      margin-left: 1rem;
     }
 
     &-icon {
       margin-top: -4.7rem;
-      margin-left: 20rem;
+      margin-left: 17.1rem;
     }
 
   }
