@@ -339,6 +339,10 @@ p {
   flex-direction: column;
   align-items: center;
 
+  &-hidden {
+    display: none;
+  }
+
   & .section-title {
     margin-left: 16rem;
     margin-top: 3.5rem;
@@ -1116,10 +1120,39 @@ footer {
 
   }
 
+  .spoiled-cats {
+    background: none;
+    background-color: var(--yellow);
+    height: 76rem;
+
+    &-tel {
+      display: none;
+    }
+
+    &-hidden {
+      display: inline;
+    }
+
+    & img {
+      margin-left: 30rem;
+      margin-top: 48.8rem;
+      width: 30rem;
+    }
+
+    &-insider {
+      margin-left: -31rem;
+    }
+
+  }
+
   .what-now {
 
     & .section-text {
       width: 33.9rem;
+    }
+
+    &-cloud {
+      display: none;
     }
 
   }
@@ -1231,6 +1264,309 @@ footer {
 
     & .nostalgie-nav {
       margin-right: 20rem;
+    }
+
+  }
+
+}
+
+@media (width <= 890px) {
+
+  .header {
+
+    &-text {
+      margin-left: 12rem;
+    }
+
+  }
+
+  .cats {
+
+    & .section-text {
+      width: 62rem;
+    }
+
+  }
+
+  .fav-restos {
+    background: none;
+    background-color: var(--grey);
+    height: 86rem;
+    margin-top: -6rem;
+
+    &-newspaper {
+      display: none;
+    }
+
+    &-header {
+      margin-left: 0;
+      padding-top: 3.5rem;
+    }
+
+    & .section-text {
+      max-width: 50rem;
+    }
+
+    & .section-title {
+      margin-left: -9rem;
+    }
+
+    &-article {
+      flex-direction: column;
+      margin-left: 0;
+      margin-top: -6rem;
+    }
+
+    &-icons {
+      margin-right: 0;
+      transform: scale(.7);
+    }
+
+    &-detail {
+      flex-direction: column;
+      margin-top: -6rem;
+      padding: 1.5rem 2.5rem 1.5rem 5rem;
+      margin-left: 8rem;
+      margin-right: 2rem;
+    }
+
+    &-img {
+      width: 9rem;
+      margin-left: -10rem;
+      margin-bottom: -10rem;
+    }
+
+    &-card-name {
+      font-size: 3rem;
+    }
+
+  }
+
+  .what-now {
+    height: 53rem;
+
+    &-cloud {
+      display: none;
+    }
+
+    &-insider {
+      flex-direction: column;
+    }
+
+    & .section-text {
+      width: 50rem;
+    }
+
+    &-img {
+      width: 32rem;
+      margin-top: -3rem;
+    }
+
+  }
+
+  .foods {
+    background: none;
+    background-color: var(--grey);
+    height: 60rem;
+
+    &-img {
+      position: absolute;
+      width: 23rem;
+      height: 16rem;
+      margin-top: 18rem;
+      margin-left: -2rem;
+    }
+
+    & header {
+      margin-left: 0;
+    }
+
+    &-text {
+      margin-left: 0;
+      margin-right: 0;
+      max-width: 50rem;
+    }
+
+    &-insider {
+      margin-right: 0;
+      padding-top: 3.5rem;
+    }
+
+  }
+
+  .wine {
+    height: 90rem;
+    margin-top: 0;
+
+    &-texts {
+      margin-right: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 3.5rem;
+    }
+
+    &-insider {
+      flex-direction: column;
+    }
+
+    & .section-text {
+      margin-top: 9rem;
+      width: 50rem;
+    }
+
+    & header {
+      margin-bottom: 30rem;
+    }
+
+    &-images {
+      position: absolute;
+      margin-left: 4rem;
+      margin-top: 4rem;
+    }
+
+    &-img {
+      width: 20rem;
+    }
+
+    & .drinks {
+      margin-left: -4rem;
+      margin-top: 4.7rem;
+
+    }
+
+  }
+
+  .hot-spicy {
+    margin-bottom: 4rem;
+
+    &-quote {
+      margin-left: 34rem;
+      margin-top: 30rem;
+    }
+
+    & .spicyimg {
+      margin-top: -53rem;
+    }
+
+    &-texts {
+      max-width: 39rem;
+      margin-left: 32rem;
+    }
+
+  }
+
+  .xmas-dining {
+    height: 84rem;
+
+    &-article {
+      flex-direction: column;
+    }
+
+    &-detail {
+      margin-top: 14rem;
+    }
+
+    &-clock div {
+      margin-left: -21rem;
+    }
+
+    & .slider {
+      margin-left: 6rem;
+    }
+
+    &-header {
+      max-width: 70rem;
+    }
+
+    & .section-text {
+      max-width: 50rem;
+    }
+
+    & .section-title {
+      margin-left: -1.4rem;
+    }
+
+  }
+
+  .japan {
+    flex-direction: column;
+
+    & .section-text {
+      max-width: 28rem;
+      margin-left: 2rem;
+    }
+
+    &-insider {
+      margin-right: 0;
+    }
+
+    & header {
+      padding-top: 2rem;
+      margin-left: 0;
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    &-img {
+      width: 22rem;
+      margin-left: -5.7rem;
+    }
+
+    & .japanSong {
+      margin-left: -14.3rem;
+    }
+
+    & .japanSong img {
+      margin-top: 21.3rem;
+      margin-left: -17.5rem;
+      width: 20rem;
+    }
+
+    &-imgs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &-texts {
+      margin: 0 auto;
+      margin-top: 2rem;
+      width: 50rem;
+    }
+
+    &-text {
+      margin-left: 7rem;
+    }
+
+    &-icon {
+      margin-top: -5.7rem;
+      margin-left: 29rem;
+    }
+
+    &-quote {
+      padding-right: 6.5rem;
+      max-width: 26rem;
+      margin-left: 11rem;
+    }
+
+  }
+
+  footer {
+    background: none;
+    background-color: var(--grey);
+    margin-top: 3rem;
+    padding-top: 0;
+
+    & .nav {
+      margin-left: 0;
+      padding-top: 1rem;
+    }
+
+    & .nostalgie-nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
 
   }
@@ -1413,15 +1749,6 @@ footer {
   }
 
   .what-now {
-    height: 68rem;
-
-    &-cloud {
-      display: none;
-    }
-
-    &-insider {
-      flex-direction: column;
-    }
 
     & .section-title {
       display: flex;
@@ -1434,39 +1761,11 @@ footer {
       display: inherit;
       margin-bottom: 1rem;
       margin-right: 0;
-    }
-
-    & .section-text {
-      max-width: 28rem;
-    }
-
-    &-img {
-      width: 32rem;
-      margin-top: -3rem;
     }
 
   }
 
   .foods {
-    background: none;
-    background-color: var(--grey);
-
-    &-img {
-      position: absolute;
-      width: 23rem;
-      height: 16rem;
-      margin-top: 18rem;
-    }
-
-    & header {
-      margin-left: 0;
-    }
-
-    &-text {
-      margin-left: 0;
-      margin-right: 0;
-      max-width: 28rem;
-    }
 
     & .section-title {
       display: flex;
@@ -1479,33 +1778,11 @@ footer {
       display: inherit;
       margin-bottom: 1rem;
       margin-right: 0;
-    }
-
-    &-insider {
-      margin-right: 0;
-      padding-top: 3.5rem;
     }
 
   }
 
   .wine {
-    height: 117rem;
-
-    &-texts {
-      margin-right: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 3.5rem;
-    }
-
-    &-insider {
-      flex-direction: column;
-    }
-
-    & .section-text {
-      max-width: 28rem;
-    }
 
     & .section-title {
       display: flex;
@@ -1520,39 +1797,9 @@ footer {
       margin-right: 0;
     }
 
-    & header {
-      margin-bottom: 38rem;
-    }
-
-    &-images {
-      position: absolute;
-      margin-left: 4rem;
-      margin-top: -2.6rem;
-    }
-
-    &-img {
-      width: 20rem;
-    }
-
-    & .drinks {
-      margin-left: -4rem;
-      margin-top: 4.7rem;
-
-    }
-
-    &-newspaper {
-      display: none;
-    }
-
   }
 
   .fav-restos {
-    background-size: 100vw 124rem;
-    height: 124rem;
-
-    &-newspaper {
-      display: none;
-    }
 
     & .section-title {
       display: flex;
@@ -1566,42 +1813,6 @@ footer {
       display: inherit;
       margin-bottom: 1rem;
       margin-right: 0;
-    }
-
-    &-header {
-      margin-left: 0;
-    }
-
-    & .section-text {
-      max-width: 28rem;
-    }
-
-    &-article {
-      flex-direction: column;
-      margin-left: 0;
-      margin-top: -6rem;
-    }
-
-    &-icons {
-      margin-right: 0;
-      transform: scale(.7);
-    }
-
-    &-detail {
-      flex-direction: column;
-      margin-top: -6rem;
-      padding: 1.5rem 2.5rem 1.5rem 5rem;
-      margin-left: 8rem;
-      margin-right: 2rem;
-    }
-
-    &-img {
-      width: 9rem;
-      margin-left: -10rem;
-    }
-
-    &-card-name {
-      font-size: 3rem;
     }
 
   }
@@ -1681,10 +1892,6 @@ footer {
       max-width: 32rem;
     }
 
-    &-article {
-      flex-direction: column;
-    }
-
     &-clock {
       transform: scale(.7);
       margin-top: -27rem;
@@ -1710,7 +1917,6 @@ footer {
   }
 
   .japan {
-    flex-direction: column;
 
     & .section-title {
       display: flex;
@@ -1725,54 +1931,6 @@ footer {
       display: inherit;
       margin-bottom: 1rem;
       margin-right: 0;
-    }
-
-    & .section-text {
-      max-width: 28rem;
-      margin-left: 2rem;
-    }
-
-    &-insider {
-      margin-right: 0;
-    }
-
-    & header {
-      padding-top: 2rem;
-      margin-left: 0;
-      margin-bottom: 3rem;
-    }
-
-    &-img {
-      width: 22rem;
-      margin-left: -1.7rem;
-    }
-
-    & .japanSong img {
-      margin-top: 21.3rem;
-      margin-left: -17.5rem;
-      width: 20rem;
-    }
-
-    &-imgs {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    &-texts {
-      margin: 0 auto;
-      margin-top: 2rem;
-      max-width: 28rem;
-    }
-
-    &-icon {
-      margin-top: -5.7rem;
-      margin-left: 19rem;
-    }
-
-    &-quote {
-      padding-right: 6.5rem;
-      max-width: 26rem;
     }
 
   }

@@ -14,7 +14,10 @@ class CatSound extends Component  {
 
   render() {
     return (
-      <img src='assets/img/callDel.png' alt='Call Delilah' title='Press to call Delilah' onClick={this.handleClickAudio} />
+      <div>
+        <img src='assets/img/callDel.png' className='spoiled-cats-tel' alt='Call Delilah' title='Press to call Delilah' onClick={this.handleClickAudio} />
+        <img src='assets/img/oldtel.png' className='spoiled-cats-hidden' alt='Call Delilah' title='Press to call Delilah' onClick={this.handleClickAudio} />
+      </div>
     );
   }
 }
