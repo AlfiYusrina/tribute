@@ -1651,7 +1651,7 @@ footer {
   }
 
   .cats {
-    height: 150rem;
+    height: 155rem;
 
     &-photos {
       display: none;
@@ -1686,8 +1686,8 @@ footer {
     }
 
     &-profile {
-      margin-top: -7rem;
       padding-left: 0;
+      margin-top: 3rem;
     }
 
     &-paws {
@@ -1702,7 +1702,7 @@ footer {
 
     &-detail-text {
       max-width: 28rem;
-      margin-left: 2rem;
+      margin-left: 12rem;
     }
 
     &-selector {
@@ -1715,7 +1715,7 @@ footer {
   .spoiled-cats {
     background: none;
     background-color: var(--yellow);
-    height: 123rem;
+    height: 111rem;
 
     &-insider {
       margin-left: 0;
@@ -1747,14 +1747,19 @@ footer {
     }
 
     & .catssound img {
-      width: 21rem;
-      margin-left: 7rem;
-      margin-top: -2rem;
+      margin-left: -1rem;
+      width: 26rem;
+      margin-top: 3rem;
     }
 
   }
 
   .what-now {
+    height: 65rem;
+
+    & .section-text {
+      max-width: 28rem;
+    }
 
     & .section-title {
       display: flex;
@@ -1772,6 +1777,7 @@ footer {
   }
 
   .foods {
+    height: 77rem;
 
     & .section-title {
       display: flex;
@@ -1784,11 +1790,16 @@ footer {
       display: inherit;
       margin-bottom: 1rem;
       margin-right: 0;
+    }
+
+    &-text {
+      max-width: 28rem;
     }
 
   }
 
   .wine {
+    height: 112rem;
 
     & .section-title {
       display: flex;
@@ -1801,24 +1812,42 @@ footer {
       display: inherit;
       margin-bottom: 1rem;
       margin-right: 0;
+    }
+
+    & .section-text {
+      width: 28rem;
+    }
+
+    &-images {
+      margin-top: -3rem;
+      margin-left: 5.2rem;
     }
 
   }
 
   .fav-restos {
+    height: 97rem;
 
     & .section-title {
       display: flex;
       flex-direction: column;
       align-items: center;
       margin-left: 0;
-      margin-top: 6.5rem;
+      margin-top: 3.5rem;
     }
 
     & .section-title::before {
       display: inherit;
       margin-bottom: 1rem;
       margin-right: 0;
+    }
+
+    & .section-text {
+      max-width: 28rem;
+    }
+
+    &-header {
+      padding-top: 0;
     }
 
   }
@@ -1862,6 +1891,10 @@ footer {
       max-width: 26rem;
     }
 
+    &-quote {
+      margin-top: 8rem;
+    }
+
     &-quote-img {
       margin-top: 23.5rem;
     }
@@ -1869,6 +1902,7 @@ footer {
   }
 
   .xmas-dining {
+    height: 90rem;
 
     & .section-title {
       display: flex;
@@ -1908,8 +1942,8 @@ footer {
     }
 
     &-detail {
-      max-width: 32rem;
-      margin-top: -3rem;
+      max-width: 30rem;
+      margin-top: 9rem;
     }
 
     &-detail-texts {
@@ -1918,6 +1952,11 @@ footer {
 
     &-detail-header {
       text-align: center;
+    }
+
+    &-article-wrapper {
+      margin-left: -3rem;
+      margin-top: 28rem;
     }
 
   }
