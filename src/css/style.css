@@ -97,6 +97,7 @@ p {
     margin-top: -80rem;
     display: flex;
     justify-content: flex-end;
+    pointer-events: none;
   }
 
   &-nav a:hover {
@@ -247,7 +248,7 @@ p {
     position: relative;
     display: flex;
     flex-direction: column;
-    rotate: 5deg;
+    transform: rotate(5deg);
     left: -4rem;
     z-index: 2;
     box-shadow: 0 8px 6px -6px grey;
@@ -257,7 +258,7 @@ p {
     position: relative;
     display: flex;
     flex-direction: column;
-    rotate: -5deg;
+    transform: rotate(-5deg);
     top: 18rem;
     left: -15rem;
   }

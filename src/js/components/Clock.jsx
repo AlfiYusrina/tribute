@@ -2,7 +2,7 @@ import React, {PropTypes} from 'react';
 
 const Clock = ({time, timeString}) => {
   const style = {
-    rotate: `${360 / 12 * time  + 90}deg`
+    transform: `rotate(${360 / 12 * time  + 90}deg)`
   };
 
   return (
