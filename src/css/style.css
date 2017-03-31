@@ -314,6 +314,10 @@ p {
     margin-left: 10rem;
   }
 
+  &-selector {
+    display: none;
+  }
+
 }
 
 .section-title {
@@ -342,7 +346,7 @@ p {
   align-items: center;
 
   & .section-title {
-    margin-left: 18rem;
+    margin-left: 16rem;
     margin-top: 3.5rem;
     margin-bottom: 2.5rem;
     padding-top: 3.5rem;
@@ -351,7 +355,7 @@ p {
   &-text {
     position: absolute;
     width: 64rem;
-    margin-left: 18rem;
+    margin-left: 16rem;
   }
 
   & img {
@@ -829,6 +833,30 @@ footer {
 
 /* RESPONSIVE */
 
+@media (width <= 1270px) {
+
+  .cats {
+
+    & .section-title {
+      width: 40rem;
+    }
+
+  }
+
+  .foods {
+
+    & header {
+      width: 26rem;
+    }
+
+    &-insider {
+      margin-right: 5.5rem;
+    }
+
+  }
+
+}
+
 @media (width <= 700px) {
 
   p {
@@ -958,6 +986,10 @@ footer {
     &-detail-text {
       max-width: 28rem;
       margin-left: 2rem;
+    }
+
+    &-selector {
+      display: inline;
     }
 
   }
