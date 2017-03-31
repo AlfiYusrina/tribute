@@ -1580,7 +1580,12 @@ footer {
   }
 
   .header {
-    height: 95rem;
+    height: 98rem;
+    margin-bottom: 5rem;
+
+    &-insider {
+      margin-left: -43rem;
+    }
 
     &-title {
       margin-left: 43.5rem;
@@ -1701,7 +1706,8 @@ footer {
     }
 
     &-selector {
-      display: inline;
+      margin-left: 15rem;
+      margin-top: -6rem;
     }
 
   }
