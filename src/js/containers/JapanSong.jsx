@@ -4,9 +4,7 @@ class JapanSong extends Component  {
 
   handleClickAudio = () =>  {
     if (this.playing)
-      return (
-        console.log(`hei`)
-      );
+      return;
 
     const audio = new Audio(`assets/audio/LaJaponaise.mp3`);
     audio.play();
